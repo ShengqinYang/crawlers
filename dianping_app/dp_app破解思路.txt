@@ -1,0 +1,24 @@
+一.虚拟机Jvm、Dalvik和Art的区别 https://www.jianshu.com/p/59d98244fb52
+总结：jvm是java虚拟机
+     Dalvik和Art是安卓虚拟机，安卓4.4用Dalvik，现在的安卓机都用Art
+     Dalvik和Art区别：Dalvik是app启用时才做编译 将字节码变成机器码，每次使用app时反应慢，但暂用空间小
+                    Art是安装app时就已经做了预编译，因此，首次加载app是运行慢，但后期在使用时速度较快，缺点暂用空间多
+                    以时间换空间的特点
+
+Android Hook技术防范漫谈：https://www.infoq.cn/article/kb08vh3i5l1w5dggp9vo
+美团点评移动网络优化实践：https://tech.meituan.com/2017/03/17/shark-sdk.html
+
+
+二.美团点评移动网络优化实践 https://tech.meituan.com/2017/03/17/shark-sdk.html
+需求：破解大众点评app
+难点：1.抓不到包、2.抓到包之后数据加密了
+
+根据上文得知点评app架构模式：【长短连接：tcp 3次握手建立连接后，执行4次挥手的时间】
+    http短链接优化【实际是tcp的短连接】：问题：各项目部门开发用自己的子域名，最终统一出口域名；方案：1.域名合并方案 2.IP直连
+    http长连接优化【实际是tcp的长连接】：
+        问题：防止dns劫持；
+        方案：使用代理长连接，代理和server直接ip通信，代理和client数据加密通信
+             1.主用通道：公司自建CIP网络通信sdk，其中包括：tcp、udp、http3个子通道
+             2.备用通道：WNS腾讯云代理长连接通道
+             3.备用通道：http通道
+             备注：CIP和WNS代理通道，tcp传输时数据均加密，所以我们破解突破口在：绕过CIP和WNS代理，直接走http通道

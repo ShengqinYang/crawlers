@@ -1,0 +1,1062 @@
+TIM: ==========================================================================
+TIM: ======  TIM
+TIM: ======  Ver: 4.6.101
+TIM: ======  Compile: Feb 24 2020 20:51:23
+TIM: ======  Platform: Android
+TIM: ======  PID: 6056
+TIM: ==========================================================================
+TIM: 2020-08-04 16:07:53.054/D/6056-6753       /Network     -looper_impl.cpp.163  operator()                            /looper start work|name:looper_log
+TIM: 2020-08-04 16:07:53.056/E/6056-6056       /IMSDK       -TUIKit-TUIKit.0                                            /init tuikit version: 1.0
+TIM: 2020-08-04 16:07:53.056/E/6056-6056       /IMSDK       -TUIKit-TUIKit.0                                            /appCacheDir is empty, use default dir
+TIM: 2020-08-04 16:07:53.075/D/6056-6754       /Network     -looper_impl.cpp.163  operator()                            /looper start work|name:looper_logic
+TIM: 2020-08-04 16:07:53.085/I/6056-6056       /IMSDK       -BaseManager.0                                              /BuglySdkInfos sdkappid:ebfa608d4d ver:4.6.101
+TIM: 2020-08-04 16:07:53.085/I/6056-6056       /IMSDK       -BaseManager.0                                              /logPath: 
+TIM: 2020-08-04 16:07:53.093/D/6056-6056       /IMSDK       -BaseManager.0                                              /create imsdklogs folder failed
+TIM: 2020-08-04 16:07:53.093/I/6056-6056       /IMSDK       -BaseManager.0                                              /logPath: /data/user/0/cn.missfresh.application/files/
+TIM: 2020-08-04 16:07:53.095/I/6056-6056       /IMSDK       -BaseManager.0                                              /init: sdkAppid=1400293526;appid=0;logPath=/data/user/0/cn.missfresh.application/files/;callbackLevel=4;logLevel=3;logPrintEnabled=true
+TIM: 2020-08-04 16:07:53.105/I/6056-6056       /IMSDK       -SessionWrapper.0                                           /bind service=============1596528473105
+TIM: 2020-08-04 16:07:53.107/I/6056-6756       /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:07:53.119/I/6056-6056       /Common      -manager_jni.cpp.405  Java_com_tencent_imsdk_manager_NativeManager_nativeInitSdk/InitSDK, sdkappid 1400293526, logPath /data/user/0/cn.missfresh.application/files/, configPath /data/user/0/cn.missfresh.application/files, deviceId 15d8425e-e869-40aa-a0f4-ac851b45a1eb, sdkInsttype_ 2000
+TIM: ==========================================================================
+TIM: ======  TIM
+TIM: ======  Ver: 4.6.101
+TIM: ======  Compile: Feb 24 2020 20:51:23
+TIM: ======  Platform: Android
+TIM: ======  PID: 6056
+TIM: ==========================================================================
+TIM: 2020-08-04 16:07:53.119/I/6056-6754       /Network     -config.cpp.333  Read                                       /read config file /data/user/0/cn.missfresh.application/files/imsdk_config
+TIM: 2020-08-04 16:07:53.119/W/6056-6754       /Network     -config.cpp.335  Read                                       /cannot create config read stream
+TIM: 2020-08-04 16:07:53.120/W/6056-6754       /DataReport  -data_report_storage.cpp.78  LoadDataFromFile               /cannot create read event data stream
+TIM: 2020-08-04 16:07:53.120/I/6056-6754       /Common      -imcore_manager.cpp.154  operator()                         /InitSdk|sdkAppId:1400293526|dev type:MI 5|dev id:15d8425e-e869-40aa-a0f4-ac851b45a1eb|system version:9|app version:4.6.101|is TUIKIT:true|sdkInsttype:2000|logFilePath:/data/user/0/cn.missfresh.application/files/|configFilePath:/data/user/0/cn.missfresh.application/files
+TIM: 2020-08-04 16:07:53.120/I/6056-6754       /Network     -imlongconnection.cpp.33  Init                              /init and then first connect
+TIM: 2020-08-04 16:07:53.121/I/6056-6754       /Network     -ipswitcher.cpp.44  SelectBestChannel                       /choose best channel|net_type:WIFI|net_id:1:"HUAXING"|prior_ip_src:http dns|reason:first
+TIM: 2020-08-04 16:07:53.132/I/6056-6056       /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:07:53.133/I/6056-6056       /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:07:53.133/I/6056-6056       /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:07:53.134/I/6056-6056       /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:07:53.134/I/6056-6056       /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:07:53.135/I/6056-6056       /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:07:53.136/I/6056-6056       /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:07:53.138/I/6056-6056       /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:07:53.142/I/6056-6056       /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:07:53.143/I/6056-6056       /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:07:53.144/I/6056-6056       /IMSDK       -BaseManager.0                                              /loadFriendshipModule init statt
+TIM: 2020-08-04 16:07:53.157/I/6056-6056       /FriendShip  -friendship_listener_jni.cpp.185  InitIDs                   /---- Start FriendshipListenerJni InitIDs
+TIM: 2020-08-04 16:07:53.157/I/6056-6056       /FriendShip  -friendship_listener_jni.cpp.212  InitIDs                   /---- End FriendshipListenerJni InitIDs
+TIM: 2020-08-04 16:07:53.158/I/6056-6056       /FriendShip  -friendship_jni.cpp.22  Java_com_tencent_imsdk_friendship_FriendshipNativeManager_nativeInitFriendshipModule/start init native Friendship Module
+TIM: 2020-08-04 16:07:53.159/I/6056-6056       /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:07:53.160/I/6056-6056       /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:07:53.162/I/6056-6056       /FriendShip  -friendship_jni.cpp.34  Java_com_tencent_imsdk_friendship_FriendshipNativeManager_nativeInitFriendshipModule/end init native Friendship Module
+TIM: 2020-08-04 16:07:53.164/I/6056-6056       /IMSDK       -imsdk.ConversationManager.0                                /addMessageListener: com.tencent.qcloud.tim.uikit.TUIKitImpl$8@cd453fa
+TIM: 2020-08-04 16:07:53.164/I/6056-6056       /IMSDK       -TIMManager.0                                               /setUserConfig: userConfig=com.tencent.imsdk.TIMUserConfig@55a1dab
+TIM: 2020-08-04 16:07:53.290/I/6056-6056       /IMSDK       -NetConnectInfoCenter.0                                     /network changed, action: android.net.conn.CONNECTIVITY_CHANGE
+TIM: 2020-08-04 16:07:53.292/I/6056-6056       /IMSDK       -NetConnectInfoCenter.0                                     /network connected type = 1, name = WIFI
+TIM: 2020-08-04 16:07:53.297/I/6056-6056       /IMSDK       -NetConnectInfoCenter.0                                     /current network: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+TIM: 2020-08-04 16:07:53.298/I/6056-6056       /Common      -manager_jni.cpp.367  Java_com_tencent_imsdk_manager_NativeManager_nativeOnNetworkChanged/OnNetworkChanged is connected 1
+TIM: 2020-08-04 16:07:53.298/I/6056-6754       /Network     -imlongconnection.cpp.78  NotifyNetChange                   /notify net change|status:network connected
+TIM: 2020-08-04 16:07:53.298/I/6056-6056       /IMSDK       -NetConnectInfoCenter.0                                     /network changed, action: android.net.wifi.STATE_CHANGE
+TIM: 2020-08-04 16:07:53.298/W/6056-6754       /Network     -connmonitor.cpp.74  NotifyNetChange                        /no channel
+TIM: 2020-08-04 16:07:53.298/I/6056-6056       /IMSDK       -NetConnectInfoCenter.0                                     /network changed, action: android.net.wifi.WIFI_STATE_CHANGED
+TIM: 2020-08-04 16:07:53.611/I/6056-6756       /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:07:54.113/I/6056-6756       /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:07:54.615/I/6056-6756       /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:07:55.122/I/6056-6756       /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:07:58.215/I/6056-6754       /Network     -ipswitcher.cpp.437  PrintIPList                            /iplist by http dns|iplist size:4|123.151.190.254:8080|123.151.79.148:8080|123.151.190.253:8080|123.151.137.108:8080
+TIM: 2020-08-04 16:07:58.215/I/6056-6754       /Network     -ipswitcher.cpp.437  PrintIPList                            /iplist by push|iplist size:0
+TIM: 2020-08-04 16:07:58.216/I/6056-6754       /Network     -ipswitcher.cpp.121  ConcurrentConnect                      /all channel concurrent connect
+TIM: 2020-08-04 16:07:58.217/I/6056-6754       /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:2|ip:123.151.190.254:8080
+TIM: 2020-08-04 16:07:58.229/I/6056-6754       /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:3|ip:123.151.79.148:8080
+TIM: 2020-08-04 16:07:58.236/I/6056-6754       /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:4|ip:123.151.190.253:8080
+TIM: 2020-08-04 16:07:58.244/I/6056-6754       /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:5|ip:123.151.137.108:8080
+TIM: 2020-08-04 16:07:58.254/I/6056-6754       /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:923528493|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:07:58.255/I/6056-6754       /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:3|seq:923528494|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:07:58.255/I/6056-6754       /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:4|seq:923528495|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:07:58.256/I/6056-6754       /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:923528493|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:07:58.257/I/6056-6754       /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:3|seq:923528494|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:07:58.257/I/6056-6754       /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:4|seq:923528495|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:07:58.259/I/6056-6754       /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:5|seq:923528496|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:07:58.260/I/6056-6754       /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:5|seq:923528496|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:07:58.267/I/6056-6754       /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:3|seq:923528494|cmd:Heartbeat.Alive|status:acked|size:4|sent:0
+TIM: 2020-08-04 16:07:58.267/I/6056-6754       /Network     -channel.cpp.104  operator()                                /channel ping success|channel id:3|connectCostTime:26ms|pingCostTime:13ms|errCode:0|errMsg:
+TIM: 2020-08-04 16:07:58.268/I/6056-6754       /Network     -ipswitcher.cpp.158  OnChannelConnected                     /channel connected|channel id:3|channel set size:4
+TIM: 2020-08-04 16:07:58.268/I/6056-6754       /Network     -channel.cpp.337  Close                                     /channel close|channel id:2|reason:close by self
+TIM: 2020-08-04 16:07:58.268/I/6056-6754       /Network     -channel.cpp.337  Close                                     /channel close|channel id:4|reason:close by self
+TIM: 2020-08-04 16:07:58.269/I/6056-6754       /Network     -channel.cpp.337  Close                                     /channel close|channel id:5|reason:close by self
+TIM: 2020-08-04 16:07:58.269/I/6056-6754       /Network     -imlongconnection.cpp.86  OnChannelSelected                 /channel id:3|ip_src:0|ip:123.151.79.148:8080|code:0|errMsg:
+TIM: 2020-08-04 16:07:58.269/I/6056-6754       /Network     -channel.cpp.337  Close                                     /channel close|channel id:1|reason:close by self
+TIM: 2020-08-04 16:07:58.269/I/6056-6754       /IMSDK       -NativeManager.0                                            /onNetworkStatusChanged Enter; type:1 code:0 errMsg:
+TIM: 2020-08-04 16:07:58.270/I/6056-6754       /IMSDK       -BaseManager.0                                              /onConnected
+TIM: 2020-08-04 16:07:58.271/I/6056-6754       /Network     -connmonitor.cpp.44  Bind                                   /bind channel|channel id:3
+TIM: 2020-08-04 16:07:58.275/I/6056-6754       /Network     -connmonitor.cpp.208  StartCheckNetwork                     /start check network|cur_net_id: 1:"HUAXING"
+TIM: 2020-08-04 16:07:58.275/D/6056-6056       /IMSDK       -TUIKit-IMEventListener.0                                   /recv onConnected
+TIM: 2020-08-04 16:07:58.275/I/6056-6754       /Network     -ipswitcher.cpp.185  OnChannelConnected                     /choose best channel success|channel id:3|ip:123.151.79.148:8080
+TIM: 2020-08-04 16:08:03.275/I/6056-6754       /DataReport  -data_report_channel.cpp.121  operator()                    /SendData response|rsp_result:0|err_msg:ok
+TIM: 2020-08-04 16:08:13.427/I/6056-6754       /DataReport  -data_report_channel.cpp.121  operator()                    /SendData response|rsp_result:0|err_msg:ok
+TIM: 2020-08-04 16:15:38.062/I/7186-7903       /Common      -log_util.cpp.670  operator()                               /get log file:imsdk_20200804.log
+TIM: 2020-08-04 16:15:38.011/D/7186-7903       /Network     -looper_impl.cpp.163  operator()                            /looper start work|name:looper_log
+TIM: 2020-08-04 16:15:38.011/E/7186-7186       /IMSDK       -TUIKit-TUIKit.0                                            /init tuikit version: 1.0
+TIM: 2020-08-04 16:15:38.012/E/7186-7186       /IMSDK       -TUIKit-TUIKit.0                                            /appCacheDir is empty, use default dir
+TIM: 2020-08-04 16:15:38.031/D/7186-7904       /Network     -looper_impl.cpp.163  operator()                            /looper start work|name:looper_logic
+TIM: 2020-08-04 16:15:38.035/I/7186-7186       /IMSDK       -BaseManager.0                                              /BuglySdkInfos sdkappid:ebfa608d4d ver:4.6.101
+TIM: 2020-08-04 16:15:38.035/I/7186-7186       /IMSDK       -BaseManager.0                                              /logPath: 
+TIM: 2020-08-04 16:15:38.040/D/7186-7186       /IMSDK       -BaseManager.0                                              /create imsdklogs folder failed
+TIM: 2020-08-04 16:15:38.040/I/7186-7186       /IMSDK       -BaseManager.0                                              /logPath: /data/user/0/cn.missfresh.application/files/
+TIM: 2020-08-04 16:15:38.042/I/7186-7186       /IMSDK       -BaseManager.0                                              /init: sdkAppid=1400293526;appid=0;logPath=/data/user/0/cn.missfresh.application/files/;callbackLevel=4;logLevel=3;logPrintEnabled=true
+TIM: 2020-08-04 16:15:38.053/I/7186-7186       /IMSDK       -SessionWrapper.0                                           /bind service=============1596528938053
+TIM: 2020-08-04 16:15:38.055/I/7186-7906       /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:15:38.060/I/7186-7186       /Common      -manager_jni.cpp.405  Java_com_tencent_imsdk_manager_NativeManager_nativeInitSdk/InitSDK, sdkappid 1400293526, logPath /data/user/0/cn.missfresh.application/files/, configPath /data/user/0/cn.missfresh.application/files, deviceId 15d8425e-e869-40aa-a0f4-ac851b45a1eb, sdkInsttype_ 2000
+TIM: ==========================================================================
+TIM: ======  TIM
+TIM: ======  Ver: 4.6.101
+TIM: ======  Compile: Feb 24 2020 20:51:23
+TIM: ======  Platform: Android
+TIM: ======  PID: 7186
+TIM: ==========================================================================
+TIM: 2020-08-04 16:15:38.060/I/7186-7904       /Network     -config.cpp.333  Read                                       /read config file /data/user/0/cn.missfresh.application/files/imsdk_config
+TIM: 2020-08-04 16:15:38.060/W/7186-7904       /Network     -config.cpp.335  Read                                       /cannot create config read stream
+TIM: 2020-08-04 16:15:38.061/W/7186-7904       /DataReport  -data_report_storage.cpp.78  LoadDataFromFile               /cannot create read event data stream
+TIM: 2020-08-04 16:15:38.061/I/7186-7904       /Common      -imcore_manager.cpp.154  operator()                         /InitSdk|sdkAppId:1400293526|dev type:MI 5|dev id:15d8425e-e869-40aa-a0f4-ac851b45a1eb|system version:9|app version:4.6.101|is TUIKIT:true|sdkInsttype:2000|logFilePath:/data/user/0/cn.missfresh.application/files/|configFilePath:/data/user/0/cn.missfresh.application/files
+TIM: 2020-08-04 16:15:38.061/I/7186-7904       /Network     -imlongconnection.cpp.33  Init                              /init and then first connect
+TIM: 2020-08-04 16:15:38.062/I/7186-7904       /Network     -ipswitcher.cpp.44  SelectBestChannel                       /choose best channel|net_type:WIFI|net_id:1:"HUAXING"|prior_ip_src:http dns|reason:first
+TIM: 2020-08-04 16:15:38.071/I/7186-7186       /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:15:38.072/I/7186-7186       /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:15:38.072/I/7186-7186       /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:15:38.073/I/7186-7186       /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:15:38.074/I/7186-7186       /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:15:38.075/I/7186-7186       /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:15:38.076/I/7186-7186       /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:15:38.077/I/7186-7186       /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:15:38.080/I/7186-7186       /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:15:38.081/I/7186-7186       /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:15:38.082/I/7186-7186       /IMSDK       -BaseManager.0                                              /loadFriendshipModule init statt
+TIM: 2020-08-04 16:15:38.087/I/7186-7186       /FriendShip  -friendship_listener_jni.cpp.185  InitIDs                   /---- Start FriendshipListenerJni InitIDs
+TIM: 2020-08-04 16:15:38.087/I/7186-7186       /FriendShip  -friendship_listener_jni.cpp.212  InitIDs                   /---- End FriendshipListenerJni InitIDs
+TIM: 2020-08-04 16:15:38.088/I/7186-7186       /FriendShip  -friendship_jni.cpp.22  Java_com_tencent_imsdk_friendship_FriendshipNativeManager_nativeInitFriendshipModule/start init native Friendship Module
+TIM: 2020-08-04 16:15:38.088/I/7186-7186       /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:15:38.089/I/7186-7186       /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:15:38.090/I/7186-7186       /FriendShip  -friendship_jni.cpp.34  Java_com_tencent_imsdk_friendship_FriendshipNativeManager_nativeInitFriendshipModule/end init native Friendship Module
+TIM: 2020-08-04 16:15:38.092/I/7186-7186       /IMSDK       -imsdk.ConversationManager.0                                /addMessageListener: com.tencent.qcloud.tim.uikit.TUIKitImpl$8@9a14d04
+TIM: 2020-08-04 16:15:38.092/I/7186-7186       /IMSDK       -TIMManager.0                                               /setUserConfig: userConfig=com.tencent.imsdk.TIMUserConfig@43d32ed
+TIM: 2020-08-04 16:15:38.106/I/7186-7186       /IMSDK       -NetConnectInfoCenter.0                                     /network changed, action: android.net.conn.CONNECTIVITY_CHANGE
+TIM: 2020-08-04 16:15:38.107/I/7186-7186       /IMSDK       -NetConnectInfoCenter.0                                     /network connected type = 1, name = WIFI
+TIM: 2020-08-04 16:15:38.113/I/7186-7186       /IMSDK       -NetConnectInfoCenter.0                                     /current network: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+TIM: 2020-08-04 16:15:38.114/I/7186-7186       /Common      -manager_jni.cpp.367  Java_com_tencent_imsdk_manager_NativeManager_nativeOnNetworkChanged/OnNetworkChanged is connected 1
+TIM: 2020-08-04 16:15:38.114/I/7186-7186       /IMSDK       -NetConnectInfoCenter.0                                     /network changed, action: android.net.wifi.STATE_CHANGE
+TIM: 2020-08-04 16:15:38.114/I/7186-7186       /IMSDK       -NetConnectInfoCenter.0                                     /network changed, action: android.net.wifi.WIFI_STATE_CHANGED
+TIM: 2020-08-04 16:15:38.114/I/7186-7904       /Network     -imlongconnection.cpp.78  NotifyNetChange                   /notify net change|status:network connected
+TIM: 2020-08-04 16:15:38.115/W/7186-7904       /Network     -connmonitor.cpp.74  NotifyNetChange                        /no channel
+TIM: 2020-08-04 16:15:38.557/I/7186-7906       /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:15:39.059/I/7186-7906       /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:15:39.561/I/7186-7906       /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:15:40.067/I/7186-7906       /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:15:43.153/I/7186-7904       /Network     -ipswitcher.cpp.437  PrintIPList                            /iplist by http dns|iplist size:4|123.151.190.254:8080|123.151.137.108:8080|123.151.79.148:8080|123.151.190.253:8080
+TIM: 2020-08-04 16:15:43.153/I/7186-7904       /Network     -ipswitcher.cpp.437  PrintIPList                            /iplist by push|iplist size:0
+TIM: 2020-08-04 16:15:43.153/I/7186-7904       /Network     -ipswitcher.cpp.121  ConcurrentConnect                      /all channel concurrent connect
+TIM: 2020-08-04 16:15:43.155/I/7186-7904       /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:2|ip:123.151.190.254:8080
+TIM: 2020-08-04 16:15:43.159/I/7186-7904       /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:3|ip:123.151.137.108:8080
+TIM: 2020-08-04 16:15:43.162/I/7186-7904       /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:4|ip:123.151.79.148:8080
+TIM: 2020-08-04 16:15:43.166/I/7186-7904       /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:5|ip:123.151.190.253:8080
+TIM: 2020-08-04 16:15:43.170/I/7186-7904       /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:2090685997|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:15:43.170/I/7186-7904       /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:3|seq:2090685998|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:15:43.171/I/7186-7904       /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:2090685997|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:15:43.172/I/7186-7904       /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:3|seq:2090685998|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:15:43.173/I/7186-7904       /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:4|seq:2090685999|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:15:43.174/I/7186-7904       /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:4|seq:2090685999|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:15:43.181/I/7186-7904       /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:5|seq:2090686000|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:15:43.182/I/7186-7904       /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:5|seq:2090686000|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:15:43.184/I/7186-7904       /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:3|seq:2090685998|cmd:Heartbeat.Alive|status:acked|size:4|sent:0
+TIM: 2020-08-04 16:15:43.184/I/7186-7904       /Network     -channel.cpp.104  operator()                                /channel ping success|channel id:3|connectCostTime:11ms|pingCostTime:14ms|errCode:0|errMsg:
+TIM: 2020-08-04 16:15:43.185/I/7186-7904       /Network     -ipswitcher.cpp.158  OnChannelConnected                     /channel connected|channel id:3|channel set size:4
+TIM: 2020-08-04 16:15:43.185/I/7186-7904       /Network     -channel.cpp.337  Close                                     /channel close|channel id:4|reason:close by self
+TIM: 2020-08-04 16:15:43.185/I/7186-7904       /Network     -channel.cpp.337  Close                                     /channel close|channel id:5|reason:close by self
+TIM: 2020-08-04 16:15:43.186/I/7186-7904       /Network     -channel.cpp.337  Close                                     /channel close|channel id:2|reason:close by self
+TIM: 2020-08-04 16:15:43.186/I/7186-7904       /Network     -imlongconnection.cpp.86  OnChannelSelected                 /channel id:3|ip_src:0|ip:123.151.137.108:8080|code:0|errMsg:
+TIM: 2020-08-04 16:15:43.186/I/7186-7904       /Network     -channel.cpp.337  Close                                     /channel close|channel id:1|reason:close by self
+TIM: 2020-08-04 16:15:43.187/I/7186-7904       /IMSDK       -NativeManager.0                                            /onNetworkStatusChanged Enter; type:1 code:0 errMsg:
+TIM: 2020-08-04 16:15:43.187/I/7186-7904       /IMSDK       -BaseManager.0                                              /onConnected
+TIM: 2020-08-04 16:15:43.189/I/7186-7904       /Network     -connmonitor.cpp.44  Bind                                   /bind channel|channel id:3
+TIM: 2020-08-04 16:15:43.189/I/7186-7904       /Network     -connmonitor.cpp.208  StartCheckNetwork                     /start check network|cur_net_id: 1:"HUAXING"
+TIM: 2020-08-04 16:15:43.189/I/7186-7904       /Network     -ipswitcher.cpp.185  OnChannelConnected                     /choose best channel success|channel id:3|ip:123.151.137.108:8080
+TIM: 2020-08-04 16:15:43.193/D/7186-7186       /IMSDK       -TUIKit-IMEventListener.0                                   /recv onConnected
+TIM: 2020-08-04 16:15:48.243/I/7186-7904       /DataReport  -data_report_channel.cpp.121  operator()                    /SendData response|rsp_result:0|err_msg:ok
+TIM: 2020-08-04 16:15:58.406/I/7186-7904       /DataReport  -data_report_channel.cpp.121  operator()                    /SendData response|rsp_result:0|err_msg:ok
+TIM: 2020-08-04 16:30:43.308/W/7186-7904       /Network     -looper_impl.cpp.350  operator()                            /channel eof arrived|id:3
+TIM: 2020-08-04 16:30:43.309/I/7186-7904       /Network     -channel.cpp.337  Close                                     /channel close|channel id:3|reason:close by peer
+TIM: 2020-08-04 16:30:43.312/I/7186-7904       /IMSDK       -NativeManager.0                                            /onNetworkStatusChanged Enter; type:3 code:0 errMsg:
+TIM: 2020-08-04 16:30:43.314/I/7186-7904       /IMSDK       -BaseManager.0                                              /onDisconnected, code: 0|descr: 
+TIM: 2020-08-04 16:30:43.317/I/7186-7904       /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:3|seq:2090686002|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:30:43.332/W/7186-7904       /Network     -connmonitor.cpp.107  OnSendStatus                          /no packet sent or recv after 900143ms
+TIM: 2020-08-04 16:30:43.332/I/7186-7904       /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:3|seq:2090686003|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:30:46.379/I/7186-7904       /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:3|seq:2090686002|cmd:Heartbeat.Alive|status:send timeout|size:90|sent:0
+TIM: 2020-08-04 16:30:46.379/I/7186-7904       /Network     -connmonitor.cpp.237  StopCheckNetwork                      /stop check network|cur_net_id: 1:"HUAXING"
+TIM: 2020-08-04 16:30:46.380/I/7186-7904       /Network     -imlongconnection.cpp.173  OnReconnect                      /reconnect reason:no connection to send
+TIM: 2020-08-04 16:30:46.381/I/7186-7904       /IMSDK       -NativeManager.0                                            /onNetworkStatusChanged Enter; type:2 code:0 errMsg:
+TIM: 2020-08-04 16:30:46.382/I/7186-7904       /IMSDK       -BaseManager.0                                              /onConnecting
+TIM: 2020-08-04 16:30:46.382/I/7186-7904       /Network     -ipswitcher.cpp.44  SelectBestChannel                       /choose best channel|net_type:WIFI|net_id:1:"HUAXING"|prior_ip_src:http dns|reason:no connection to send
+TIM: 2020-08-04 16:30:46.396/W/7186-7904       /Network     -channel.cpp.236  CheckPacketTimeoutInternal                /packet timeout(send)|id:3|seq:2090686002|cmd:Heartbeat.Alive|status:send timeout|retry count:1
+TIM: 2020-08-04 16:30:46.396/I/7186-7904       /Network     -connmonitor.cpp.253  operator()                            /network change ping|code:9519|errMsg:packet in queue but no available channel to send
+TIM: 2020-08-04 16:30:46.396/I/7186-7904       /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:3|seq:2090686003|cmd:Heartbeat.Alive|status:send timeout|size:90|sent:0
+TIM: 2020-08-04 16:30:46.396/W/7186-7904       /Network     -channel.cpp.236  CheckPacketTimeoutInternal                /packet timeout(send)|id:3|seq:2090686003|cmd:Heartbeat.Alive|status:send timeout|retry count:1
+TIM: 2020-08-04 16:30:46.397/I/7186-7904       /Network     -connmonitor.cpp.253  operator()                            /network change ping|code:9519|errMsg:packet in queue but no available channel to send
+TIM: 2020-08-04 16:30:46.498/I/7186-7904       /Network     -ipswitcher.cpp.437  PrintIPList                            /iplist by http dns|iplist size:4|123.151.79.148:8080|123.151.190.254:8080|123.151.190.253:8080|123.151.137.108:8080
+TIM: 2020-08-04 16:30:46.498/I/7186-7904       /Network     -ipswitcher.cpp.437  PrintIPList                            /iplist by push|iplist size:0
+TIM: 2020-08-04 16:30:46.499/I/7186-7904       /Network     -ipswitcher.cpp.121  ConcurrentConnect                      /all channel concurrent connect
+TIM: 2020-08-04 16:30:46.500/I/7186-7904       /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:6|ip:123.151.79.148:8080
+TIM: 2020-08-04 16:30:46.511/I/7186-7904       /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:7|ip:123.151.190.254:8080
+TIM: 2020-08-04 16:30:46.516/I/7186-7904       /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:8|ip:123.151.190.253:8080
+TIM: 2020-08-04 16:30:46.520/I/7186-7904       /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:9|ip:123.151.137.108:8080
+TIM: 2020-08-04 16:30:46.523/I/7186-7904       /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:6|seq:2090686004|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:30:46.524/I/7186-7904       /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:7|seq:2090686005|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:30:46.526/I/7186-7904       /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:6|seq:2090686004|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:30:46.526/I/7186-7904       /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:7|seq:2090686005|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:30:46.527/I/7186-7904       /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:8|seq:2090686006|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:30:46.528/I/7186-7904       /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:8|seq:2090686006|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:30:46.531/I/7186-7904       /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:9|seq:2090686007|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:30:46.534/I/7186-7904       /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:9|seq:2090686007|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:30:46.536/I/7186-7904       /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:8|seq:2090686006|cmd:Heartbeat.Alive|status:acked|size:4|sent:0
+TIM: 2020-08-04 16:30:46.536/I/7186-7904       /Network     -channel.cpp.104  operator()                                /channel ping success|channel id:8|connectCostTime:11ms|pingCostTime:9ms|errCode:0|errMsg:
+TIM: 2020-08-04 16:30:46.536/I/7186-7904       /Network     -ipswitcher.cpp.158  OnChannelConnected                     /channel connected|channel id:8|channel set size:4
+TIM: 2020-08-04 16:30:46.536/I/7186-7904       /Network     -channel.cpp.337  Close                                     /channel close|channel id:9|reason:close by self
+TIM: 2020-08-04 16:30:46.536/I/7186-7904       /Network     -channel.cpp.337  Close                                     /channel close|channel id:6|reason:close by self
+TIM: 2020-08-04 16:30:46.537/I/7186-7904       /Network     -channel.cpp.337  Close                                     /channel close|channel id:7|reason:close by self
+TIM: 2020-08-04 16:30:46.542/I/7186-7904       /Network     -imlongconnection.cpp.86  OnChannelSelected                 /channel id:8|ip_src:0|ip:123.151.190.253:8080|code:0|errMsg:
+TIM: 2020-08-04 16:30:46.543/I/7186-7904       /IMSDK       -NativeManager.0                                            /onNetworkStatusChanged Enter; type:1 code:0 errMsg:
+TIM: 2020-08-04 16:30:46.543/I/7186-7904       /IMSDK       -BaseManager.0                                              /onConnected
+TIM: 2020-08-04 16:30:46.543/I/7186-7904       /Network     -connmonitor.cpp.44  Bind                                   /bind channel|channel id:8
+TIM: 2020-08-04 16:30:46.543/I/7186-7904       /Network     -connmonitor.cpp.208  StartCheckNetwork                     /start check network|cur_net_id: 1:"HUAXING"
+TIM: 2020-08-04 16:30:46.543/I/7186-7904       /Network     -ipswitcher.cpp.185  OnChannelConnected                     /choose best channel success|channel id:8|ip:123.151.190.253:8080
+TIM: 2020-08-04 16:30:48.791/I/7186-7904       /DataReport  -data_report_channel.cpp.121  operator()                    /SendData response|rsp_result:0|err_msg:ok
+TIM: 2020-08-04 16:32:14.157/I/11583-12502     /Common      -log_util.cpp.670  operator()                               /get log file:imsdk_20200804.log
+TIM: 2020-08-04 16:32:13.453/E/11583-11583     /IMSDK       -TUIKit-TUIKit.0                                            /init tuikit version: 1.0
+TIM: 2020-08-04 16:32:13.453/E/11583-11583     /IMSDK       -TUIKit-TUIKit.0                                            /appCacheDir is empty, use default dir
+TIM: 2020-08-04 16:32:13.467/D/11583-12502     /Network     -looper_impl.cpp.163  operator()                            /looper start work|name:looper_log
+TIM: 2020-08-04 16:32:13.716/D/11583-12505     /Network     -looper_impl.cpp.163  operator()                            /looper start work|name:looper_logic
+TIM: 2020-08-04 16:32:13.792/I/11583-11583     /IMSDK       -BaseManager.0                                              /BuglySdkInfos sdkappid:ebfa608d4d ver:4.6.101
+TIM: 2020-08-04 16:32:13.792/I/11583-11583     /IMSDK       -BaseManager.0                                              /logPath: 
+TIM: 2020-08-04 16:32:13.799/D/11583-11583     /IMSDK       -BaseManager.0                                              /create imsdklogs folder failed
+TIM: 2020-08-04 16:32:13.800/I/11583-11583     /IMSDK       -BaseManager.0                                              /logPath: /data/user/0/cn.missfresh.application/files/
+TIM: 2020-08-04 16:32:13.803/I/11583-11583     /IMSDK       -BaseManager.0                                              /init: sdkAppid=1400293526;appid=0;logPath=/data/user/0/cn.missfresh.application/files/;callbackLevel=4;logLevel=3;logPrintEnabled=true
+TIM: 2020-08-04 16:32:13.959/I/11583-11583     /IMSDK       -SessionWrapper.0                                           /bind service=============1596529933959
+TIM: 2020-08-04 16:32:14.025/I/11583-12511     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:32:14.145/I/11583-11583     /Common      -manager_jni.cpp.405  Java_com_tencent_imsdk_manager_NativeManager_nativeInitSdk/InitSDK, sdkappid 1400293526, logPath /data/user/0/cn.missfresh.application/files/, configPath /data/user/0/cn.missfresh.application/files, deviceId 15d8425e-e869-40aa-a0f4-ac851b45a1eb, sdkInsttype_ 2000
+TIM: ==========================================================================
+TIM: ======  TIM
+TIM: ======  Ver: 4.6.101
+TIM: ======  Compile: Feb 24 2020 20:51:23
+TIM: ======  Platform: Android
+TIM: ======  PID: 11583
+TIM: ==========================================================================
+TIM: 2020-08-04 16:32:14.156/I/11583-12505     /Network     -config.cpp.333  Read                                       /read config file /data/user/0/cn.missfresh.application/files/imsdk_config
+TIM: 2020-08-04 16:32:14.156/W/11583-12505     /Network     -config.cpp.335  Read                                       /cannot create config read stream
+TIM: 2020-08-04 16:32:14.163/W/11583-12505     /DataReport  -data_report_storage.cpp.78  LoadDataFromFile               /cannot create read event data stream
+TIM: 2020-08-04 16:32:14.156/I/11583-12505     /Common      -imcore_manager.cpp.154  operator()                         /InitSdk|sdkAppId:1400293526|dev type:MI 5|dev id:15d8425e-e869-40aa-a0f4-ac851b45a1eb|system version:9|app version:4.6.101|is TUIKIT:true|sdkInsttype:2000|logFilePath:/data/user/0/cn.missfresh.application/files/|configFilePath:/data/user/0/cn.missfresh.application/files
+TIM: 2020-08-04 16:32:14.163/I/11583-12505     /Network     -imlongconnection.cpp.33  Init                              /init and then first connect
+TIM: 2020-08-04 16:32:14.173/I/11583-12505     /Network     -ipswitcher.cpp.44  SelectBestChannel                       /choose best channel|net_type:WIFI|net_id:1:"HUAXING"|prior_ip_src:http dns|reason:first
+TIM: 2020-08-04 16:32:14.391/I/11583-11583     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:32:14.392/I/11583-11583     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:32:14.395/I/11583-11583     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:32:14.397/I/11583-11583     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:32:14.398/I/11583-11583     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:32:14.401/I/11583-11583     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:32:14.403/I/11583-11583     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:32:14.434/I/11583-11583     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:32:14.452/I/11583-12505     /Network     -ipswitcher.cpp.437  PrintIPList                            /iplist by http dns|iplist size:4|123.151.79.148:8080|123.151.190.254:8080|123.151.190.253:8080|123.151.137.108:8080
+TIM: 2020-08-04 16:32:14.452/I/11583-12505     /Network     -ipswitcher.cpp.437  PrintIPList                            /iplist by push|iplist size:0
+TIM: 2020-08-04 16:32:14.452/I/11583-12505     /Network     -ipswitcher.cpp.121  ConcurrentConnect                      /all channel concurrent connect
+TIM: 2020-08-04 16:32:14.453/I/11583-12505     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:2|ip:123.151.79.148:8080
+TIM: 2020-08-04 16:32:14.457/I/11583-12505     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:3|ip:123.151.190.254:8080
+TIM: 2020-08-04 16:32:14.459/I/11583-12505     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:4|ip:123.151.190.253:8080
+TIM: 2020-08-04 16:32:14.462/I/11583-12505     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:5|ip:123.151.137.108:8080
+TIM: 2020-08-04 16:32:14.465/I/11583-12505     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:124616826|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:32:14.465/I/11583-12505     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:124616826|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:32:14.467/I/11583-12505     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:3|seq:124616827|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:32:14.467/I/11583-12505     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:3|seq:124616827|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:32:14.472/I/11583-12505     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:4|seq:124616828|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:32:14.473/I/11583-12505     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:5|seq:124616829|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:32:14.473/I/11583-12505     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:4|seq:124616828|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:32:14.473/I/11583-12505     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:5|seq:124616829|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:32:14.480/I/11583-12505     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:124616826|cmd:Heartbeat.Alive|status:acked|size:4|sent:0
+TIM: 2020-08-04 16:32:14.480/I/11583-12505     /Network     -channel.cpp.104  operator()                                /channel ping success|channel id:2|connectCostTime:12ms|pingCostTime:15ms|errCode:0|errMsg:
+TIM: 2020-08-04 16:32:14.480/I/11583-12505     /Network     -ipswitcher.cpp.158  OnChannelConnected                     /channel connected|channel id:2|channel set size:4
+TIM: 2020-08-04 16:32:14.480/I/11583-12505     /Network     -channel.cpp.337  Close                                     /channel close|channel id:4|reason:close by self
+TIM: 2020-08-04 16:32:14.480/I/11583-12505     /Network     -channel.cpp.337  Close                                     /channel close|channel id:3|reason:close by self
+TIM: 2020-08-04 16:32:14.481/I/11583-12505     /Network     -channel.cpp.337  Close                                     /channel close|channel id:5|reason:close by self
+TIM: 2020-08-04 16:32:14.481/I/11583-12505     /Network     -imlongconnection.cpp.86  OnChannelSelected                 /channel id:2|ip_src:0|ip:123.151.79.148:8080|code:0|errMsg:
+TIM: 2020-08-04 16:32:14.481/I/11583-12505     /Network     -channel.cpp.337  Close                                     /channel close|channel id:1|reason:close by self
+TIM: 2020-08-04 16:32:14.482/I/11583-12505     /IMSDK       -NativeManager.0                                            /onNetworkStatusChanged Enter; type:1 code:0 errMsg:
+TIM: 2020-08-04 16:32:14.482/I/11583-12505     /IMSDK       -BaseManager.0                                              /onConnected
+TIM: 2020-08-04 16:32:14.487/I/11583-12505     /Network     -connmonitor.cpp.44  Bind                                   /bind channel|channel id:2
+TIM: 2020-08-04 16:32:14.487/I/11583-12505     /Network     -connmonitor.cpp.208  StartCheckNetwork                     /start check network|cur_net_id: 1:"HUAXING"
+TIM: 2020-08-04 16:32:14.488/I/11583-12505     /Network     -ipswitcher.cpp.185  OnChannelConnected                     /choose best channel success|channel id:2|ip:123.151.79.148:8080
+TIM: 2020-08-04 16:32:14.500/I/11583-11583     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:32:14.502/I/11583-11583     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:32:14.504/I/11583-11583     /IMSDK       -BaseManager.0                                              /loadFriendshipModule init statt
+TIM: 2020-08-04 16:32:14.528/I/11583-12511     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:32:14.614/I/11583-11583     /FriendShip  -friendship_listener_jni.cpp.185  InitIDs                   /---- Start FriendshipListenerJni InitIDs
+TIM: 2020-08-04 16:32:14.615/I/11583-11583     /FriendShip  -friendship_listener_jni.cpp.212  InitIDs                   /---- End FriendshipListenerJni InitIDs
+TIM: 2020-08-04 16:32:14.616/I/11583-11583     /FriendShip  -friendship_jni.cpp.22  Java_com_tencent_imsdk_friendship_FriendshipNativeManager_nativeInitFriendshipModule/start init native Friendship Module
+TIM: 2020-08-04 16:32:14.618/I/11583-11583     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:32:14.622/I/11583-11583     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:32:14.626/I/11583-11583     /FriendShip  -friendship_jni.cpp.34  Java_com_tencent_imsdk_friendship_FriendshipNativeManager_nativeInitFriendshipModule/end init native Friendship Module
+TIM: 2020-08-04 16:32:14.717/I/11583-11583     /IMSDK       -imsdk.ConversationManager.0                                /addMessageListener: com.tencent.qcloud.tim.uikit.TUIKitImpl$8@a81ecb6
+TIM: 2020-08-04 16:32:14.719/I/11583-11583     /IMSDK       -TIMManager.0                                               /setUserConfig: userConfig=com.tencent.imsdk.TIMUserConfig@a356db7
+TIM: 2020-08-04 16:32:15.030/I/11583-12511     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:32:15.532/I/11583-12511     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:32:16.034/I/11583-12511     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:32:17.137/I/11583-11583     /IMSDK       -NetConnectInfoCenter.0                                     /network changed, action: android.net.conn.CONNECTIVITY_CHANGE
+TIM: 2020-08-04 16:32:17.226/I/11583-11583     /IMSDK       -NetConnectInfoCenter.0                                     /network connected type = 1, name = WIFI
+TIM: 2020-08-04 16:32:17.466/I/11583-11583     /IMSDK       -NetConnectInfoCenter.0                                     /current network: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+TIM: 2020-08-04 16:32:17.467/I/11583-11583     /Common      -manager_jni.cpp.367  Java_com_tencent_imsdk_manager_NativeManager_nativeOnNetworkChanged/OnNetworkChanged is connected 1
+TIM: 2020-08-04 16:32:17.476/I/11583-11583     /IMSDK       -NetConnectInfoCenter.0                                     /network changed, action: android.net.wifi.STATE_CHANGE
+TIM: 2020-08-04 16:32:17.477/I/11583-11583     /IMSDK       -NetConnectInfoCenter.0                                     /network changed, action: android.net.wifi.WIFI_STATE_CHANGED
+TIM: 2020-08-04 16:32:17.479/I/11583-12505     /Network     -imlongconnection.cpp.78  NotifyNetChange                   /notify net change|status:network connected
+TIM: 2020-08-04 16:32:17.479/I/11583-12505     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:124616831|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:32:17.479/I/11583-12505     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:124616831|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:32:17.488/I/11583-12505     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:124616831|cmd:Heartbeat.Alive|status:acked|size:4|sent:0
+TIM: 2020-08-04 16:32:17.489/I/11583-12505     /Network     -connmonitor.cpp.253  operator()                            /network change ping|code:0|errMsg:
+TIM: 2020-08-04 16:32:19.366/I/11583-12505     /DataReport  -data_report_channel.cpp.121  operator()                    /SendData response|rsp_result:0|err_msg:ok
+TIM: 2020-08-04 16:46:15.351/I/14223-14673     /Common      -log_util.cpp.670  operator()                               /get log file:imsdk_20200804.log
+TIM: 2020-08-04 16:46:15.300/E/14223-14223     /IMSDK       -TUIKit-TUIKit.0                                            /init tuikit version: 1.0
+TIM: 2020-08-04 16:46:15.300/D/14223-14673     /Network     -looper_impl.cpp.163  operator()                            /looper start work|name:looper_log
+TIM: 2020-08-04 16:46:15.300/E/14223-14223     /IMSDK       -TUIKit-TUIKit.0                                            /appCacheDir is empty, use default dir
+TIM: 2020-08-04 16:46:15.316/D/14223-14674     /Network     -looper_impl.cpp.163  operator()                            /looper start work|name:looper_logic
+TIM: 2020-08-04 16:46:15.320/I/14223-14223     /IMSDK       -BaseManager.0                                              /BuglySdkInfos sdkappid:ebfa608d4d ver:4.6.101
+TIM: 2020-08-04 16:46:15.320/I/14223-14223     /IMSDK       -BaseManager.0                                              /logPath: 
+TIM: 2020-08-04 16:46:15.324/D/14223-14223     /IMSDK       -BaseManager.0                                              /create imsdklogs folder failed
+TIM: 2020-08-04 16:46:15.324/I/14223-14223     /IMSDK       -BaseManager.0                                              /logPath: /data/user/0/cn.missfresh.application/files/
+TIM: 2020-08-04 16:46:15.326/I/14223-14223     /IMSDK       -BaseManager.0                                              /init: sdkAppid=1400293526;appid=0;logPath=/data/user/0/cn.missfresh.application/files/;callbackLevel=4;logLevel=3;logPrintEnabled=true
+TIM: 2020-08-04 16:46:15.342/I/14223-14223     /IMSDK       -SessionWrapper.0                                           /bind service=============1596530775342
+TIM: 2020-08-04 16:46:15.344/I/14223-14676     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:46:15.349/I/14223-14223     /Common      -manager_jni.cpp.405  Java_com_tencent_imsdk_manager_NativeManager_nativeInitSdk/InitSDK, sdkappid 1400293526, logPath /data/user/0/cn.missfresh.application/files/, configPath /data/user/0/cn.missfresh.application/files, deviceId 15d8425e-e869-40aa-a0f4-ac851b45a1eb, sdkInsttype_ 2000
+TIM: ==========================================================================
+TIM: ======  TIM
+TIM: ======  Ver: 4.6.101
+TIM: ======  Compile: Feb 24 2020 20:51:23
+TIM: ======  Platform: Android
+TIM: ======  PID: 14223
+TIM: ==========================================================================
+TIM: 2020-08-04 16:46:15.350/I/14223-14674     /Network     -config.cpp.333  Read                                       /read config file /data/user/0/cn.missfresh.application/files/imsdk_config
+TIM: 2020-08-04 16:46:15.350/W/14223-14674     /Network     -config.cpp.335  Read                                       /cannot create config read stream
+TIM: 2020-08-04 16:46:15.350/W/14223-14674     /DataReport  -data_report_storage.cpp.78  LoadDataFromFile               /cannot create read event data stream
+TIM: 2020-08-04 16:46:15.350/I/14223-14674     /Common      -imcore_manager.cpp.154  operator()                         /InitSdk|sdkAppId:1400293526|dev type:MI 5|dev id:15d8425e-e869-40aa-a0f4-ac851b45a1eb|system version:9|app version:4.6.101|is TUIKIT:true|sdkInsttype:2000|logFilePath:/data/user/0/cn.missfresh.application/files/|configFilePath:/data/user/0/cn.missfresh.application/files
+TIM: 2020-08-04 16:46:15.351/I/14223-14674     /Network     -imlongconnection.cpp.33  Init                              /init and then first connect
+TIM: 2020-08-04 16:46:15.351/I/14223-14674     /Network     -ipswitcher.cpp.44  SelectBestChannel                       /choose best channel|net_type:WIFI|net_id:1:"HUAXING"|prior_ip_src:http dns|reason:first
+TIM: 2020-08-04 16:46:15.367/I/14223-14223     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:46:15.368/I/14223-14223     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:46:15.368/I/14223-14223     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:46:15.368/I/14223-14223     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:46:15.369/I/14223-14223     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:46:15.370/I/14223-14223     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:46:15.371/I/14223-14223     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:46:15.372/I/14223-14223     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:46:15.375/I/14223-14223     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:46:15.376/I/14223-14223     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:46:15.377/I/14223-14223     /IMSDK       -BaseManager.0                                              /loadFriendshipModule init statt
+TIM: 2020-08-04 16:46:15.382/I/14223-14223     /FriendShip  -friendship_listener_jni.cpp.185  InitIDs                   /---- Start FriendshipListenerJni InitIDs
+TIM: 2020-08-04 16:46:15.382/I/14223-14223     /FriendShip  -friendship_listener_jni.cpp.212  InitIDs                   /---- End FriendshipListenerJni InitIDs
+TIM: 2020-08-04 16:46:15.383/I/14223-14223     /FriendShip  -friendship_jni.cpp.22  Java_com_tencent_imsdk_friendship_FriendshipNativeManager_nativeInitFriendshipModule/start init native Friendship Module
+TIM: 2020-08-04 16:46:15.383/I/14223-14223     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:46:15.384/I/14223-14223     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:46:15.385/I/14223-14223     /FriendShip  -friendship_jni.cpp.34  Java_com_tencent_imsdk_friendship_FriendshipNativeManager_nativeInitFriendshipModule/end init native Friendship Module
+TIM: 2020-08-04 16:46:15.387/I/14223-14223     /IMSDK       -imsdk.ConversationManager.0                                /addMessageListener: com.tencent.qcloud.tim.uikit.TUIKitImpl$8@cadbbac
+TIM: 2020-08-04 16:46:15.387/I/14223-14223     /IMSDK       -TIMManager.0                                               /setUserConfig: userConfig=com.tencent.imsdk.TIMUserConfig@82f8075
+TIM: 2020-08-04 16:46:15.407/I/14223-14223     /IMSDK       -NetConnectInfoCenter.0                                     /network changed, action: android.net.conn.CONNECTIVITY_CHANGE
+TIM: 2020-08-04 16:46:15.409/I/14223-14223     /IMSDK       -NetConnectInfoCenter.0                                     /network connected type = 1, name = WIFI
+TIM: 2020-08-04 16:46:15.413/I/14223-14223     /IMSDK       -NetConnectInfoCenter.0                                     /current network: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+TIM: 2020-08-04 16:46:15.413/I/14223-14223     /Common      -manager_jni.cpp.367  Java_com_tencent_imsdk_manager_NativeManager_nativeOnNetworkChanged/OnNetworkChanged is connected 1
+TIM: 2020-08-04 16:46:15.414/I/14223-14223     /IMSDK       -NetConnectInfoCenter.0                                     /network changed, action: android.net.wifi.STATE_CHANGE
+TIM: 2020-08-04 16:46:15.414/I/14223-14223     /IMSDK       -NetConnectInfoCenter.0                                     /network changed, action: android.net.wifi.WIFI_STATE_CHANGED
+TIM: 2020-08-04 16:46:15.415/I/14223-14674     /Network     -imlongconnection.cpp.78  NotifyNetChange                   /notify net change|status:network connected
+TIM: 2020-08-04 16:46:15.415/W/14223-14674     /Network     -connmonitor.cpp.74  NotifyNetChange                        /no channel
+TIM: 2020-08-04 16:46:15.435/I/14223-14674     /Network     -ipswitcher.cpp.437  PrintIPList                            /iplist by http dns|iplist size:4|123.151.190.253:8080|123.151.137.108:8080|123.151.79.148:8080|123.151.190.254:8080
+TIM: 2020-08-04 16:46:15.435/I/14223-14674     /Network     -ipswitcher.cpp.437  PrintIPList                            /iplist by push|iplist size:0
+TIM: 2020-08-04 16:46:15.435/I/14223-14674     /Network     -ipswitcher.cpp.121  ConcurrentConnect                      /all channel concurrent connect
+TIM: 2020-08-04 16:46:15.435/I/14223-14674     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:2|ip:123.151.190.253:8080
+TIM: 2020-08-04 16:46:15.437/I/14223-14674     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:3|ip:123.151.137.108:8080
+TIM: 2020-08-04 16:46:15.443/I/14223-14674     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:4|ip:123.151.79.148:8080
+TIM: 2020-08-04 16:46:15.445/I/14223-14674     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:5|ip:123.151.190.254:8080
+TIM: 2020-08-04 16:46:15.447/I/14223-14674     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:2901472061|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:46:15.447/I/14223-14674     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:2901472061|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:46:15.452/I/14223-14674     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:3|seq:2901472062|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:46:15.452/I/14223-14674     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:3|seq:2901472062|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:46:15.459/I/14223-14674     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:4|seq:2901472063|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:46:15.460/I/14223-14674     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:5|seq:2901472064|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:46:15.460/I/14223-14674     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:4|seq:2901472063|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:46:15.460/I/14223-14674     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:2901472061|cmd:Heartbeat.Alive|status:acked|size:4|sent:0
+TIM: 2020-08-04 16:46:15.460/I/14223-14674     /Network     -channel.cpp.104  operator()                                /channel ping success|channel id:2|connectCostTime:12ms|pingCostTime:13ms|errCode:0|errMsg:
+TIM: 2020-08-04 16:46:15.460/I/14223-14674     /Network     -ipswitcher.cpp.158  OnChannelConnected                     /channel connected|channel id:2|channel set size:4
+TIM: 2020-08-04 16:46:15.460/I/14223-14674     /Network     -channel.cpp.337  Close                                     /channel close|channel id:4|reason:close by self
+TIM: 2020-08-04 16:46:15.460/I/14223-14674     /Network     -channel.cpp.337  Close                                     /channel close|channel id:3|reason:close by self
+TIM: 2020-08-04 16:46:15.460/I/14223-14674     /Network     -channel.cpp.337  Close                                     /channel close|channel id:5|reason:close by self
+TIM: 2020-08-04 16:46:15.461/I/14223-14674     /Network     -imlongconnection.cpp.86  OnChannelSelected                 /channel id:2|ip_src:0|ip:123.151.190.253:8080|code:0|errMsg:
+TIM: 2020-08-04 16:46:15.461/I/14223-14674     /Network     -channel.cpp.337  Close                                     /channel close|channel id:1|reason:close by self
+TIM: 2020-08-04 16:46:15.461/I/14223-14674     /IMSDK       -NativeManager.0                                            /onNetworkStatusChanged Enter; type:1 code:0 errMsg:
+TIM: 2020-08-04 16:46:15.461/I/14223-14674     /IMSDK       -BaseManager.0                                              /onConnected
+TIM: 2020-08-04 16:46:15.462/I/14223-14674     /Network     -connmonitor.cpp.44  Bind                                   /bind channel|channel id:2
+TIM: 2020-08-04 16:46:15.462/I/14223-14674     /Network     -connmonitor.cpp.208  StartCheckNetwork                     /start check network|cur_net_id: 1:"HUAXING"
+TIM: 2020-08-04 16:46:15.462/I/14223-14674     /Network     -ipswitcher.cpp.185  OnChannelConnected                     /choose best channel success|channel id:2|ip:123.151.190.253:8080
+TIM: 2020-08-04 16:46:15.462/E/14223-14674     /Network     -socket.cpp.727  CheckAsyncConnected                        /socket GetSocketError failed|fd:-1|error:9, Bad file descriptor
+TIM: 2020-08-04 16:46:15.464/D/14223-14223     /IMSDK       -TUIKit-IMEventListener.0                                   /recv onConnected
+TIM: 2020-08-04 16:46:15.847/I/14223-14676     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:46:16.348/I/14223-14676     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:46:16.850/I/14223-14676     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:46:17.356/I/14223-14676     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:46:20.497/I/14223-14674     /DataReport  -data_report_channel.cpp.121  operator()                    /SendData response|rsp_result:0|err_msg:ok
+TIM: 2020-08-04 16:47:53.592/I/15068-15505     /Common      -log_util.cpp.670  operator()                               /get log file:imsdk_20200804.log
+TIM: 2020-08-04 16:47:53.550/E/15068-15068     /IMSDK       -TUIKit-TUIKit.0                                            /init tuikit version: 1.0
+TIM: 2020-08-04 16:47:53.550/D/15068-15505     /Network     -looper_impl.cpp.163  operator()                            /looper start work|name:looper_log
+TIM: 2020-08-04 16:47:53.550/E/15068-15068     /IMSDK       -TUIKit-TUIKit.0                                            /appCacheDir is empty, use default dir
+TIM: 2020-08-04 16:47:53.564/D/15068-15506     /Network     -looper_impl.cpp.163  operator()                            /looper start work|name:looper_logic
+TIM: 2020-08-04 16:47:53.566/I/15068-15068     /IMSDK       -BaseManager.0                                              /BuglySdkInfos sdkappid:ebfa608d4d ver:4.6.101
+TIM: 2020-08-04 16:47:53.566/I/15068-15068     /IMSDK       -BaseManager.0                                              /logPath: 
+TIM: 2020-08-04 16:47:53.571/D/15068-15068     /IMSDK       -BaseManager.0                                              /create imsdklogs folder failed
+TIM: 2020-08-04 16:47:53.571/I/15068-15068     /IMSDK       -BaseManager.0                                              /logPath: /data/user/0/cn.missfresh.application/files/
+TIM: 2020-08-04 16:47:53.573/I/15068-15068     /IMSDK       -BaseManager.0                                              /init: sdkAppid=1400293526;appid=0;logPath=/data/user/0/cn.missfresh.application/files/;callbackLevel=4;logLevel=3;logPrintEnabled=true
+TIM: 2020-08-04 16:47:53.581/I/15068-15068     /IMSDK       -SessionWrapper.0                                           /bind service=============1596530873581
+TIM: 2020-08-04 16:47:53.583/I/15068-15508     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:47:53.587/I/15068-15068     /Common      -manager_jni.cpp.405  Java_com_tencent_imsdk_manager_NativeManager_nativeInitSdk/InitSDK, sdkappid 1400293526, logPath /data/user/0/cn.missfresh.application/files/, configPath /data/user/0/cn.missfresh.application/files, deviceId 15d8425e-e869-40aa-a0f4-ac851b45a1eb, sdkInsttype_ 2000
+TIM: ==========================================================================
+TIM: ======  TIM
+TIM: ======  Ver: 4.6.101
+TIM: ======  Compile: Feb 24 2020 20:51:23
+TIM: ======  Platform: Android
+TIM: ======  PID: 15068
+TIM: ==========================================================================
+TIM: 2020-08-04 16:47:53.588/I/15068-15506     /Network     -config.cpp.333  Read                                       /read config file /data/user/0/cn.missfresh.application/files/imsdk_config
+TIM: 2020-08-04 16:47:53.588/W/15068-15506     /Network     -config.cpp.335  Read                                       /cannot create config read stream
+TIM: 2020-08-04 16:47:53.588/W/15068-15506     /DataReport  -data_report_storage.cpp.78  LoadDataFromFile               /cannot create read event data stream
+TIM: 2020-08-04 16:47:53.588/I/15068-15506     /Common      -imcore_manager.cpp.154  operator()                         /InitSdk|sdkAppId:1400293526|dev type:MI 5|dev id:15d8425e-e869-40aa-a0f4-ac851b45a1eb|system version:9|app version:4.6.101|is TUIKIT:true|sdkInsttype:2000|logFilePath:/data/user/0/cn.missfresh.application/files/|configFilePath:/data/user/0/cn.missfresh.application/files
+TIM: 2020-08-04 16:47:53.589/I/15068-15506     /Network     -imlongconnection.cpp.33  Init                              /init and then first connect
+TIM: 2020-08-04 16:47:53.589/I/15068-15506     /Network     -ipswitcher.cpp.44  SelectBestChannel                       /choose best channel|net_type:WIFI|net_id:1:"HUAXING"|prior_ip_src:http dns|reason:first
+TIM: 2020-08-04 16:47:53.605/I/15068-15068     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:47:53.605/I/15068-15068     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:47:53.606/I/15068-15068     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:47:53.606/I/15068-15068     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:47:53.607/I/15068-15068     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:47:53.608/I/15068-15068     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:47:53.609/I/15068-15068     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:47:53.610/I/15068-15068     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:47:53.615/I/15068-15068     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:47:53.615/I/15068-15068     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:47:53.616/I/15068-15068     /IMSDK       -BaseManager.0                                              /loadFriendshipModule init statt
+TIM: 2020-08-04 16:47:53.622/I/15068-15068     /FriendShip  -friendship_listener_jni.cpp.185  InitIDs                   /---- Start FriendshipListenerJni InitIDs
+TIM: 2020-08-04 16:47:53.622/I/15068-15068     /FriendShip  -friendship_listener_jni.cpp.212  InitIDs                   /---- End FriendshipListenerJni InitIDs
+TIM: 2020-08-04 16:47:53.622/I/15068-15068     /FriendShip  -friendship_jni.cpp.22  Java_com_tencent_imsdk_friendship_FriendshipNativeManager_nativeInitFriendshipModule/start init native Friendship Module
+TIM: 2020-08-04 16:47:53.623/I/15068-15068     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:47:53.623/I/15068-15068     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:47:53.625/I/15068-15068     /FriendShip  -friendship_jni.cpp.34  Java_com_tencent_imsdk_friendship_FriendshipNativeManager_nativeInitFriendshipModule/end init native Friendship Module
+TIM: 2020-08-04 16:47:53.627/I/15068-15068     /IMSDK       -imsdk.ConversationManager.0                                /addMessageListener: com.tencent.qcloud.tim.uikit.TUIKitImpl$8@53e9433
+TIM: 2020-08-04 16:47:53.627/I/15068-15068     /IMSDK       -TIMManager.0                                               /setUserConfig: userConfig=com.tencent.imsdk.TIMUserConfig@f3ed3f0
+TIM: 2020-08-04 16:47:53.644/I/15068-15068     /IMSDK       -NetConnectInfoCenter.0                                     /network changed, action: android.net.conn.CONNECTIVITY_CHANGE
+TIM: 2020-08-04 16:47:53.645/I/15068-15068     /IMSDK       -NetConnectInfoCenter.0                                     /network connected type = 1, name = WIFI
+TIM: 2020-08-04 16:47:53.648/I/15068-15068     /IMSDK       -NetConnectInfoCenter.0                                     /current network: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+TIM: 2020-08-04 16:47:53.649/I/15068-15068     /Common      -manager_jni.cpp.367  Java_com_tencent_imsdk_manager_NativeManager_nativeOnNetworkChanged/OnNetworkChanged is connected 1
+TIM: 2020-08-04 16:47:53.649/I/15068-15068     /IMSDK       -NetConnectInfoCenter.0                                     /network changed, action: android.net.wifi.STATE_CHANGE
+TIM: 2020-08-04 16:47:53.649/I/15068-15506     /Network     -imlongconnection.cpp.78  NotifyNetChange                   /notify net change|status:network connected
+TIM: 2020-08-04 16:47:53.649/W/15068-15506     /Network     -connmonitor.cpp.74  NotifyNetChange                        /no channel
+TIM: 2020-08-04 16:47:53.649/I/15068-15068     /IMSDK       -NetConnectInfoCenter.0                                     /network changed, action: android.net.wifi.WIFI_STATE_CHANGED
+TIM: 2020-08-04 16:47:53.666/I/15068-15506     /Network     -ipswitcher.cpp.437  PrintIPList                            /iplist by http dns|iplist size:4|123.151.190.253:8080|123.151.190.254:8080|123.151.79.148:8080|123.151.137.108:8080
+TIM: 2020-08-04 16:47:53.666/I/15068-15506     /Network     -ipswitcher.cpp.437  PrintIPList                            /iplist by push|iplist size:0
+TIM: 2020-08-04 16:47:53.666/I/15068-15506     /Network     -ipswitcher.cpp.121  ConcurrentConnect                      /all channel concurrent connect
+TIM: 2020-08-04 16:47:53.667/I/15068-15506     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:2|ip:123.151.190.253:8080
+TIM: 2020-08-04 16:47:53.669/I/15068-15506     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:3|ip:123.151.190.254:8080
+TIM: 2020-08-04 16:47:53.671/I/15068-15506     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:4|ip:123.151.79.148:8080
+TIM: 2020-08-04 16:47:53.674/I/15068-15506     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:5|ip:123.151.137.108:8080
+TIM: 2020-08-04 16:47:53.679/I/15068-15506     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:3355500086|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:47:53.679/I/15068-15506     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:3355500086|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:47:53.679/I/15068-15506     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:3|seq:3355500087|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:47:53.680/I/15068-15506     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:3|seq:3355500087|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:47:53.680/I/15068-15506     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:4|seq:3355500088|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:47:53.681/I/15068-15506     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:4|seq:3355500088|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:47:53.683/I/15068-15506     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:5|seq:3355500089|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:47:53.684/I/15068-15506     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:5|seq:3355500089|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:47:53.687/I/15068-15506     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:3355500086|cmd:Heartbeat.Alive|status:acked|size:4|sent:0
+TIM: 2020-08-04 16:47:53.687/I/15068-15506     /Network     -channel.cpp.104  operator()                                /channel ping success|channel id:2|connectCostTime:12ms|pingCostTime:8ms|errCode:0|errMsg:
+TIM: 2020-08-04 16:47:53.687/I/15068-15506     /Network     -ipswitcher.cpp.158  OnChannelConnected                     /channel connected|channel id:2|channel set size:4
+TIM: 2020-08-04 16:47:53.687/I/15068-15506     /Network     -channel.cpp.337  Close                                     /channel close|channel id:3|reason:close by self
+TIM: 2020-08-04 16:47:53.688/I/15068-15506     /Network     -channel.cpp.337  Close                                     /channel close|channel id:5|reason:close by self
+TIM: 2020-08-04 16:47:53.688/I/15068-15506     /Network     -channel.cpp.337  Close                                     /channel close|channel id:4|reason:close by self
+TIM: 2020-08-04 16:47:53.688/I/15068-15506     /Network     -imlongconnection.cpp.86  OnChannelSelected                 /channel id:2|ip_src:0|ip:123.151.190.253:8080|code:0|errMsg:
+TIM: 2020-08-04 16:47:53.688/I/15068-15506     /Network     -channel.cpp.337  Close                                     /channel close|channel id:1|reason:close by self
+TIM: 2020-08-04 16:47:53.691/I/15068-15506     /IMSDK       -NativeManager.0                                            /onNetworkStatusChanged Enter; type:1 code:0 errMsg:
+TIM: 2020-08-04 16:47:53.691/I/15068-15506     /IMSDK       -BaseManager.0                                              /onConnected
+TIM: 2020-08-04 16:47:53.691/I/15068-15506     /Network     -connmonitor.cpp.44  Bind                                   /bind channel|channel id:2
+TIM: 2020-08-04 16:47:53.691/I/15068-15506     /Network     -connmonitor.cpp.208  StartCheckNetwork                     /start check network|cur_net_id: 1:"HUAXING"
+TIM: 2020-08-04 16:47:53.691/I/15068-15506     /Network     -ipswitcher.cpp.185  OnChannelConnected                     /choose best channel success|channel id:2|ip:123.151.190.253:8080
+TIM: 2020-08-04 16:47:53.695/D/15068-15068     /IMSDK       -TUIKit-IMEventListener.0                                   /recv onConnected
+TIM: 2020-08-04 16:47:54.085/I/15068-15508     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:47:54.587/I/15068-15508     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:47:55.089/I/15068-15508     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:47:55.591/I/15068-15508     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:47:58.732/I/15068-15506     /DataReport  -data_report_channel.cpp.121  operator()                    /SendData response|rsp_result:0|err_msg:ok
+TIM: 2020-08-04 16:48:25.905/I/15741-16255     /Common      -log_util.cpp.670  operator()                               /get log file:imsdk_20200804.log
+TIM: 2020-08-04 16:48:25.865/E/15741-15741     /IMSDK       -TUIKit-TUIKit.0                                            /init tuikit version: 1.0
+TIM: 2020-08-04 16:48:25.865/D/15741-16255     /Network     -looper_impl.cpp.163  operator()                            /looper start work|name:looper_log
+TIM: 2020-08-04 16:48:25.865/E/15741-15741     /IMSDK       -TUIKit-TUIKit.0                                            /appCacheDir is empty, use default dir
+TIM: 2020-08-04 16:48:25.879/D/15741-16256     /Network     -looper_impl.cpp.163  operator()                            /looper start work|name:looper_logic
+TIM: 2020-08-04 16:48:25.882/I/15741-15741     /IMSDK       -BaseManager.0                                              /BuglySdkInfos sdkappid:ebfa608d4d ver:4.6.101
+TIM: 2020-08-04 16:48:25.882/I/15741-15741     /IMSDK       -BaseManager.0                                              /logPath: 
+TIM: 2020-08-04 16:48:25.886/D/15741-15741     /IMSDK       -BaseManager.0                                              /create imsdklogs folder failed
+TIM: 2020-08-04 16:48:25.886/I/15741-15741     /IMSDK       -BaseManager.0                                              /logPath: /data/user/0/cn.missfresh.application/files/
+TIM: 2020-08-04 16:48:25.888/I/15741-15741     /IMSDK       -BaseManager.0                                              /init: sdkAppid=1400293526;appid=0;logPath=/data/user/0/cn.missfresh.application/files/;callbackLevel=4;logLevel=3;logPrintEnabled=true
+TIM: 2020-08-04 16:48:25.897/I/15741-15741     /IMSDK       -SessionWrapper.0                                           /bind service=============1596530905897
+TIM: 2020-08-04 16:48:25.899/I/15741-16258     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:48:25.904/I/15741-15741     /Common      -manager_jni.cpp.405  Java_com_tencent_imsdk_manager_NativeManager_nativeInitSdk/InitSDK, sdkappid 1400293526, logPath /data/user/0/cn.missfresh.application/files/, configPath /data/user/0/cn.missfresh.application/files, deviceId 15d8425e-e869-40aa-a0f4-ac851b45a1eb, sdkInsttype_ 2000
+TIM: ==========================================================================
+TIM: ======  TIM
+TIM: ======  Ver: 4.6.101
+TIM: ======  Compile: Feb 24 2020 20:51:23
+TIM: ======  Platform: Android
+TIM: ======  PID: 15741
+TIM: ==========================================================================
+TIM: 2020-08-04 16:48:25.904/I/15741-16256     /Network     -config.cpp.333  Read                                       /read config file /data/user/0/cn.missfresh.application/files/imsdk_config
+TIM: 2020-08-04 16:48:25.904/W/15741-16256     /Network     -config.cpp.335  Read                                       /cannot create config read stream
+TIM: 2020-08-04 16:48:25.904/W/15741-16256     /DataReport  -data_report_storage.cpp.78  LoadDataFromFile               /cannot create read event data stream
+TIM: 2020-08-04 16:48:25.904/I/15741-16256     /Common      -imcore_manager.cpp.154  operator()                         /InitSdk|sdkAppId:1400293526|dev type:MI 5|dev id:15d8425e-e869-40aa-a0f4-ac851b45a1eb|system version:9|app version:4.6.101|is TUIKIT:true|sdkInsttype:2000|logFilePath:/data/user/0/cn.missfresh.application/files/|configFilePath:/data/user/0/cn.missfresh.application/files
+TIM: 2020-08-04 16:48:25.905/I/15741-16256     /Network     -imlongconnection.cpp.33  Init                              /init and then first connect
+TIM: 2020-08-04 16:48:25.905/I/15741-16256     /Network     -ipswitcher.cpp.44  SelectBestChannel                       /choose best channel|net_type:WIFI|net_id:1:"HUAXING"|prior_ip_src:http dns|reason:first
+TIM: 2020-08-04 16:48:25.916/I/15741-15741     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:48:25.917/I/15741-15741     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:48:25.917/I/15741-15741     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:48:25.918/I/15741-15741     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:48:25.918/I/15741-15741     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:48:25.919/I/15741-15741     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:48:25.920/I/15741-15741     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:48:25.921/I/15741-15741     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:48:25.925/I/15741-15741     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:48:25.925/I/15741-15741     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:48:25.926/I/15741-15741     /IMSDK       -BaseManager.0                                              /loadFriendshipModule init statt
+TIM: 2020-08-04 16:48:25.932/I/15741-15741     /FriendShip  -friendship_listener_jni.cpp.185  InitIDs                   /---- Start FriendshipListenerJni InitIDs
+TIM: 2020-08-04 16:48:25.932/I/15741-15741     /FriendShip  -friendship_listener_jni.cpp.212  InitIDs                   /---- End FriendshipListenerJni InitIDs
+TIM: 2020-08-04 16:48:25.932/I/15741-15741     /FriendShip  -friendship_jni.cpp.22  Java_com_tencent_imsdk_friendship_FriendshipNativeManager_nativeInitFriendshipModule/start init native Friendship Module
+TIM: 2020-08-04 16:48:25.933/I/15741-15741     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:48:25.933/I/15741-15741     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:48:25.935/I/15741-15741     /FriendShip  -friendship_jni.cpp.34  Java_com_tencent_imsdk_friendship_FriendshipNativeManager_nativeInitFriendshipModule/end init native Friendship Module
+TIM: 2020-08-04 16:48:25.936/I/15741-15741     /IMSDK       -imsdk.ConversationManager.0                                /addMessageListener: com.tencent.qcloud.tim.uikit.TUIKitImpl$8@281d0fa
+TIM: 2020-08-04 16:48:25.937/I/15741-15741     /IMSDK       -TIMManager.0                                               /setUserConfig: userConfig=com.tencent.imsdk.TIMUserConfig@a4e56ab
+TIM: 2020-08-04 16:48:25.956/I/15741-15741     /IMSDK       -NetConnectInfoCenter.0                                     /network changed, action: android.net.conn.CONNECTIVITY_CHANGE
+TIM: 2020-08-04 16:48:25.957/I/15741-15741     /IMSDK       -NetConnectInfoCenter.0                                     /network connected type = 1, name = WIFI
+TIM: 2020-08-04 16:48:25.962/I/15741-15741     /IMSDK       -NetConnectInfoCenter.0                                     /current network: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+TIM: 2020-08-04 16:48:25.963/I/15741-15741     /Common      -manager_jni.cpp.367  Java_com_tencent_imsdk_manager_NativeManager_nativeOnNetworkChanged/OnNetworkChanged is connected 1
+TIM: 2020-08-04 16:48:25.963/I/15741-15741     /IMSDK       -NetConnectInfoCenter.0                                     /network changed, action: android.net.wifi.STATE_CHANGE
+TIM: 2020-08-04 16:48:25.963/I/15741-15741     /IMSDK       -NetConnectInfoCenter.0                                     /network changed, action: android.net.wifi.WIFI_STATE_CHANGED
+TIM: 2020-08-04 16:48:25.964/I/15741-16256     /Network     -imlongconnection.cpp.78  NotifyNetChange                   /notify net change|status:network connected
+TIM: 2020-08-04 16:48:25.964/W/15741-16256     /Network     -connmonitor.cpp.74  NotifyNetChange                        /no channel
+TIM: 2020-08-04 16:48:25.993/I/15741-16256     /Network     -ipswitcher.cpp.437  PrintIPList                            /iplist by http dns|iplist size:4|123.151.190.253:8080|123.151.190.254:8080|123.151.79.148:8080|123.151.137.108:8080
+TIM: 2020-08-04 16:48:25.993/I/15741-16256     /Network     -ipswitcher.cpp.437  PrintIPList                            /iplist by push|iplist size:0
+TIM: 2020-08-04 16:48:25.993/I/15741-16256     /Network     -ipswitcher.cpp.121  ConcurrentConnect                      /all channel concurrent connect
+TIM: 2020-08-04 16:48:25.994/I/15741-16256     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:2|ip:123.151.190.253:8080
+TIM: 2020-08-04 16:48:25.996/I/15741-16256     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:3|ip:123.151.190.254:8080
+TIM: 2020-08-04 16:48:25.997/I/15741-16256     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:4|ip:123.151.79.148:8080
+TIM: 2020-08-04 16:48:25.999/I/15741-16256     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:5|ip:123.151.137.108:8080
+TIM: 2020-08-04 16:48:26.007/I/15741-16256     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:1403109366|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:48:26.007/I/15741-16256     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:3|seq:1403109367|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:48:26.007/I/15741-16256     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:4|seq:1403109368|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:48:26.007/I/15741-16256     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:1403109366|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:48:26.008/I/15741-16256     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:3|seq:1403109367|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:48:26.008/I/15741-16256     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:4|seq:1403109368|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:48:26.013/I/15741-16256     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:5|seq:1403109369|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:48:26.014/I/15741-16256     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:5|seq:1403109369|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:48:26.021/I/15741-16256     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:4|seq:1403109368|cmd:Heartbeat.Alive|status:acked|size:4|sent:0
+TIM: 2020-08-04 16:48:26.021/I/15741-16256     /Network     -channel.cpp.104  operator()                                /channel ping success|channel id:4|connectCostTime:9ms|pingCostTime:14ms|errCode:0|errMsg:
+TIM: 2020-08-04 16:48:26.021/I/15741-16256     /Network     -ipswitcher.cpp.158  OnChannelConnected                     /channel connected|channel id:4|channel set size:4
+TIM: 2020-08-04 16:48:26.022/I/15741-16256     /Network     -channel.cpp.337  Close                                     /channel close|channel id:5|reason:close by self
+TIM: 2020-08-04 16:48:26.022/I/15741-16256     /Network     -channel.cpp.337  Close                                     /channel close|channel id:2|reason:close by self
+TIM: 2020-08-04 16:48:26.022/I/15741-16256     /Network     -channel.cpp.337  Close                                     /channel close|channel id:3|reason:close by self
+TIM: 2020-08-04 16:48:26.022/I/15741-16256     /Network     -imlongconnection.cpp.86  OnChannelSelected                 /channel id:4|ip_src:0|ip:123.151.79.148:8080|code:0|errMsg:
+TIM: 2020-08-04 16:48:26.022/I/15741-16256     /Network     -channel.cpp.337  Close                                     /channel close|channel id:1|reason:close by self
+TIM: 2020-08-04 16:48:26.023/I/15741-16256     /IMSDK       -NativeManager.0                                            /onNetworkStatusChanged Enter; type:1 code:0 errMsg:
+TIM: 2020-08-04 16:48:26.023/I/15741-16256     /IMSDK       -BaseManager.0                                              /onConnected
+TIM: 2020-08-04 16:48:26.025/I/15741-16256     /Network     -connmonitor.cpp.44  Bind                                   /bind channel|channel id:4
+TIM: 2020-08-04 16:48:26.025/I/15741-16256     /Network     -connmonitor.cpp.208  StartCheckNetwork                     /start check network|cur_net_id: 1:"HUAXING"
+TIM: 2020-08-04 16:48:26.025/I/15741-16256     /Network     -ipswitcher.cpp.185  OnChannelConnected                     /choose best channel success|channel id:4|ip:123.151.79.148:8080
+TIM: 2020-08-04 16:48:26.027/D/15741-15741     /IMSDK       -TUIKit-IMEventListener.0                                   /recv onConnected
+TIM: 2020-08-04 16:48:26.401/I/15741-16258     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:48:26.902/I/15741-16258     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:48:27.405/I/15741-16258     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:48:27.908/I/15741-16258     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:48:31.008/I/15741-16256     /DataReport  -data_report_channel.cpp.121  operator()                    /SendData response|rsp_result:0|err_msg:ok
+TIM: 2020-08-04 16:50:54.424/I/16548-16995     /Common      -log_util.cpp.670  operator()                               /get log file:imsdk_20200804.log
+TIM: 2020-08-04 16:50:54.377/E/16548-16548     /IMSDK       -TUIKit-TUIKit.0                                            /init tuikit version: 1.0
+TIM: 2020-08-04 16:50:54.377/D/16548-16995     /Network     -looper_impl.cpp.163  operator()                            /looper start work|name:looper_log
+TIM: 2020-08-04 16:50:54.377/E/16548-16548     /IMSDK       -TUIKit-TUIKit.0                                            /appCacheDir is empty, use default dir
+TIM: 2020-08-04 16:50:54.395/D/16548-16996     /Network     -looper_impl.cpp.163  operator()                            /looper start work|name:looper_logic
+TIM: 2020-08-04 16:50:54.399/I/16548-16548     /IMSDK       -BaseManager.0                                              /BuglySdkInfos sdkappid:ebfa608d4d ver:4.6.101
+TIM: 2020-08-04 16:50:54.399/I/16548-16548     /IMSDK       -BaseManager.0                                              /logPath: 
+TIM: 2020-08-04 16:50:54.403/D/16548-16548     /IMSDK       -BaseManager.0                                              /create imsdklogs folder failed
+TIM: 2020-08-04 16:50:54.403/I/16548-16548     /IMSDK       -BaseManager.0                                              /logPath: /data/user/0/cn.missfresh.application/files/
+TIM: 2020-08-04 16:50:54.405/I/16548-16548     /IMSDK       -BaseManager.0                                              /init: sdkAppid=1400293526;appid=0;logPath=/data/user/0/cn.missfresh.application/files/;callbackLevel=4;logLevel=3;logPrintEnabled=true
+TIM: 2020-08-04 16:50:54.416/I/16548-16548     /IMSDK       -SessionWrapper.0                                           /bind service=============1596531054416
+TIM: 2020-08-04 16:50:54.418/I/16548-16998     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:50:54.423/I/16548-16548     /Common      -manager_jni.cpp.405  Java_com_tencent_imsdk_manager_NativeManager_nativeInitSdk/InitSDK, sdkappid 1400293526, logPath /data/user/0/cn.missfresh.application/files/, configPath /data/user/0/cn.missfresh.application/files, deviceId 15d8425e-e869-40aa-a0f4-ac851b45a1eb, sdkInsttype_ 2000
+TIM: ==========================================================================
+TIM: ======  TIM
+TIM: ======  Ver: 4.6.101
+TIM: ======  Compile: Feb 24 2020 20:51:23
+TIM: ======  Platform: Android
+TIM: ======  PID: 16548
+TIM: ==========================================================================
+TIM: 2020-08-04 16:50:54.423/I/16548-16996     /Network     -config.cpp.333  Read                                       /read config file /data/user/0/cn.missfresh.application/files/imsdk_config
+TIM: 2020-08-04 16:50:54.423/W/16548-16996     /Network     -config.cpp.335  Read                                       /cannot create config read stream
+TIM: 2020-08-04 16:50:54.424/W/16548-16996     /DataReport  -data_report_storage.cpp.78  LoadDataFromFile               /cannot create read event data stream
+TIM: 2020-08-04 16:50:54.423/I/16548-16996     /Common      -imcore_manager.cpp.154  operator()                         /InitSdk|sdkAppId:1400293526|dev type:MI 5|dev id:15d8425e-e869-40aa-a0f4-ac851b45a1eb|system version:9|app version:4.6.101|is TUIKIT:true|sdkInsttype:2000|logFilePath:/data/user/0/cn.missfresh.application/files/|configFilePath:/data/user/0/cn.missfresh.application/files
+TIM: 2020-08-04 16:50:54.424/I/16548-16996     /Network     -imlongconnection.cpp.33  Init                              /init and then first connect
+TIM: 2020-08-04 16:50:54.424/I/16548-16996     /Network     -ipswitcher.cpp.44  SelectBestChannel                       /choose best channel|net_type:WIFI|net_id:1:"HUAXING"|prior_ip_src:http dns|reason:first
+TIM: 2020-08-04 16:50:54.436/I/16548-16548     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:50:54.437/I/16548-16548     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:50:54.438/I/16548-16548     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:50:54.438/I/16548-16548     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:50:54.438/I/16548-16548     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:50:54.439/I/16548-16548     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:50:54.440/I/16548-16548     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:50:54.441/I/16548-16548     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:50:54.445/I/16548-16548     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:50:54.446/I/16548-16548     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:50:54.447/I/16548-16548     /IMSDK       -BaseManager.0                                              /loadFriendshipModule init statt
+TIM: 2020-08-04 16:50:54.452/I/16548-16548     /FriendShip  -friendship_listener_jni.cpp.185  InitIDs                   /---- Start FriendshipListenerJni InitIDs
+TIM: 2020-08-04 16:50:54.452/I/16548-16548     /FriendShip  -friendship_listener_jni.cpp.212  InitIDs                   /---- End FriendshipListenerJni InitIDs
+TIM: 2020-08-04 16:50:54.452/I/16548-16548     /FriendShip  -friendship_jni.cpp.22  Java_com_tencent_imsdk_friendship_FriendshipNativeManager_nativeInitFriendshipModule/start init native Friendship Module
+TIM: 2020-08-04 16:50:54.453/I/16548-16548     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:50:54.453/I/16548-16548     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:50:54.455/I/16548-16548     /FriendShip  -friendship_jni.cpp.34  Java_com_tencent_imsdk_friendship_FriendshipNativeManager_nativeInitFriendshipModule/end init native Friendship Module
+TIM: 2020-08-04 16:50:54.457/I/16548-16548     /IMSDK       -imsdk.ConversationManager.0                                /addMessageListener: com.tencent.qcloud.tim.uikit.TUIKitImpl$8@a05e702
+TIM: 2020-08-04 16:50:54.457/I/16548-16548     /IMSDK       -TIMManager.0                                               /setUserConfig: userConfig=com.tencent.imsdk.TIMUserConfig@e722813
+TIM: 2020-08-04 16:50:54.473/I/16548-16548     /IMSDK       -NetConnectInfoCenter.0                                     /network changed, action: android.net.conn.CONNECTIVITY_CHANGE
+TIM: 2020-08-04 16:50:54.474/I/16548-16548     /IMSDK       -NetConnectInfoCenter.0                                     /network connected type = 1, name = WIFI
+TIM: 2020-08-04 16:50:54.477/I/16548-16548     /IMSDK       -NetConnectInfoCenter.0                                     /current network: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+TIM: 2020-08-04 16:50:54.478/I/16548-16548     /Common      -manager_jni.cpp.367  Java_com_tencent_imsdk_manager_NativeManager_nativeOnNetworkChanged/OnNetworkChanged is connected 1
+TIM: 2020-08-04 16:50:54.478/I/16548-16548     /IMSDK       -NetConnectInfoCenter.0                                     /network changed, action: android.net.wifi.STATE_CHANGE
+TIM: 2020-08-04 16:50:54.478/I/16548-16548     /IMSDK       -NetConnectInfoCenter.0                                     /network changed, action: android.net.wifi.WIFI_STATE_CHANGED
+TIM: 2020-08-04 16:50:54.479/I/16548-16996     /Network     -imlongconnection.cpp.78  NotifyNetChange                   /notify net change|status:network connected
+TIM: 2020-08-04 16:50:54.479/W/16548-16996     /Network     -connmonitor.cpp.74  NotifyNetChange                        /no channel
+TIM: 2020-08-04 16:50:54.523/I/16548-16996     /Network     -ipswitcher.cpp.437  PrintIPList                            /iplist by http dns|iplist size:4|123.151.190.254:8080|123.151.79.148:8080|123.151.190.253:8080|123.151.137.108:8080
+TIM: 2020-08-04 16:50:54.523/I/16548-16996     /Network     -ipswitcher.cpp.437  PrintIPList                            /iplist by push|iplist size:0
+TIM: 2020-08-04 16:50:54.523/I/16548-16996     /Network     -ipswitcher.cpp.121  ConcurrentConnect                      /all channel concurrent connect
+TIM: 2020-08-04 16:50:54.523/I/16548-16996     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:2|ip:123.151.190.254:8080
+TIM: 2020-08-04 16:50:54.524/I/16548-16996     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:3|ip:123.151.79.148:8080
+TIM: 2020-08-04 16:50:54.526/I/16548-16996     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:4|ip:123.151.190.253:8080
+TIM: 2020-08-04 16:50:54.527/I/16548-16996     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:5|ip:123.151.137.108:8080
+TIM: 2020-08-04 16:50:54.533/I/16548-16996     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:3877215671|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:50:54.534/I/16548-16996     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:3877215671|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:50:54.535/I/16548-16996     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:3|seq:3877215672|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:50:54.535/I/16548-16996     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:3|seq:3877215672|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:50:54.535/I/16548-16996     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:4|seq:3877215673|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:50:54.535/I/16548-16996     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:4|seq:3877215673|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:50:54.539/I/16548-16996     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:5|seq:3877215674|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:50:54.539/I/16548-16996     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:5|seq:3877215674|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:50:54.542/I/16548-16996     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:3877215671|cmd:Heartbeat.Alive|status:acked|size:4|sent:0
+TIM: 2020-08-04 16:50:54.542/I/16548-16996     /Network     -channel.cpp.104  operator()                                /channel ping success|channel id:2|connectCostTime:10ms|pingCostTime:9ms|errCode:0|errMsg:
+TIM: 2020-08-04 16:50:54.542/I/16548-16996     /Network     -ipswitcher.cpp.158  OnChannelConnected                     /channel connected|channel id:2|channel set size:4
+TIM: 2020-08-04 16:50:54.542/I/16548-16996     /Network     -channel.cpp.337  Close                                     /channel close|channel id:4|reason:close by self
+TIM: 2020-08-04 16:50:54.542/I/16548-16996     /Network     -channel.cpp.337  Close                                     /channel close|channel id:3|reason:close by self
+TIM: 2020-08-04 16:50:54.543/I/16548-16996     /Network     -channel.cpp.337  Close                                     /channel close|channel id:5|reason:close by self
+TIM: 2020-08-04 16:50:54.543/I/16548-16996     /Network     -imlongconnection.cpp.86  OnChannelSelected                 /channel id:2|ip_src:0|ip:123.151.190.254:8080|code:0|errMsg:
+TIM: 2020-08-04 16:50:54.543/I/16548-16996     /Network     -channel.cpp.337  Close                                     /channel close|channel id:1|reason:close by self
+TIM: 2020-08-04 16:50:54.544/I/16548-16996     /IMSDK       -NativeManager.0                                            /onNetworkStatusChanged Enter; type:1 code:0 errMsg:
+TIM: 2020-08-04 16:50:54.544/I/16548-16996     /IMSDK       -BaseManager.0                                              /onConnected
+TIM: 2020-08-04 16:50:54.545/I/16548-16996     /Network     -connmonitor.cpp.44  Bind                                   /bind channel|channel id:2
+TIM: 2020-08-04 16:50:54.545/I/16548-16996     /Network     -connmonitor.cpp.208  StartCheckNetwork                     /start check network|cur_net_id: 1:"HUAXING"
+TIM: 2020-08-04 16:50:54.545/I/16548-16996     /Network     -ipswitcher.cpp.185  OnChannelConnected                     /choose best channel success|channel id:2|ip:123.151.190.254:8080
+TIM: 2020-08-04 16:50:54.547/D/16548-16548     /IMSDK       -TUIKit-IMEventListener.0                                   /recv onConnected
+TIM: 2020-08-04 16:50:54.920/I/16548-16998     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:50:55.422/I/16548-16998     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:50:55.924/I/16548-16998     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:50:56.426/I/16548-16998     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:50:59.574/I/16548-16996     /DataReport  -data_report_channel.cpp.121  operator()                    /SendData response|rsp_result:0|err_msg:ok
+TIM: 2020-08-04 16:51:48.945/I/17208-17705     /Common      -log_util.cpp.670  operator()                               /get log file:imsdk_20200804.log
+TIM: 2020-08-04 16:51:48.900/E/17208-17208     /IMSDK       -TUIKit-TUIKit.0                                            /init tuikit version: 1.0
+TIM: 2020-08-04 16:51:48.900/D/17208-17705     /Network     -looper_impl.cpp.163  operator()                            /looper start work|name:looper_log
+TIM: 2020-08-04 16:51:48.901/E/17208-17208     /IMSDK       -TUIKit-TUIKit.0                                            /appCacheDir is empty, use default dir
+TIM: 2020-08-04 16:51:48.916/D/17208-17706     /Network     -looper_impl.cpp.163  operator()                            /looper start work|name:looper_logic
+TIM: 2020-08-04 16:51:48.919/I/17208-17208     /IMSDK       -BaseManager.0                                              /BuglySdkInfos sdkappid:ebfa608d4d ver:4.6.101
+TIM: 2020-08-04 16:51:48.920/I/17208-17208     /IMSDK       -BaseManager.0                                              /logPath: 
+TIM: 2020-08-04 16:51:48.924/D/17208-17208     /IMSDK       -BaseManager.0                                              /create imsdklogs folder failed
+TIM: 2020-08-04 16:51:48.924/I/17208-17208     /IMSDK       -BaseManager.0                                              /logPath: /data/user/0/cn.missfresh.application/files/
+TIM: 2020-08-04 16:51:48.926/I/17208-17208     /IMSDK       -BaseManager.0                                              /init: sdkAppid=1400293526;appid=0;logPath=/data/user/0/cn.missfresh.application/files/;callbackLevel=4;logLevel=3;logPrintEnabled=true
+TIM: 2020-08-04 16:51:48.937/I/17208-17208     /IMSDK       -SessionWrapper.0                                           /bind service=============1596531108937
+TIM: 2020-08-04 16:51:48.939/I/17208-17708     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:51:48.944/I/17208-17208     /Common      -manager_jni.cpp.405  Java_com_tencent_imsdk_manager_NativeManager_nativeInitSdk/InitSDK, sdkappid 1400293526, logPath /data/user/0/cn.missfresh.application/files/, configPath /data/user/0/cn.missfresh.application/files, deviceId 15d8425e-e869-40aa-a0f4-ac851b45a1eb, sdkInsttype_ 2000
+TIM: ==========================================================================
+TIM: ======  TIM
+TIM: ======  Ver: 4.6.101
+TIM: ======  Compile: Feb 24 2020 20:51:23
+TIM: ======  Platform: Android
+TIM: ======  PID: 17208
+TIM: ==========================================================================
+TIM: 2020-08-04 16:51:48.945/I/17208-17706     /Network     -config.cpp.333  Read                                       /read config file /data/user/0/cn.missfresh.application/files/imsdk_config
+TIM: 2020-08-04 16:51:48.945/W/17208-17706     /Network     -config.cpp.335  Read                                       /cannot create config read stream
+TIM: 2020-08-04 16:51:48.945/W/17208-17706     /DataReport  -data_report_storage.cpp.78  LoadDataFromFile               /cannot create read event data stream
+TIM: 2020-08-04 16:51:48.945/I/17208-17706     /Common      -imcore_manager.cpp.154  operator()                         /InitSdk|sdkAppId:1400293526|dev type:MI 5|dev id:15d8425e-e869-40aa-a0f4-ac851b45a1eb|system version:9|app version:4.6.101|is TUIKIT:true|sdkInsttype:2000|logFilePath:/data/user/0/cn.missfresh.application/files/|configFilePath:/data/user/0/cn.missfresh.application/files
+TIM: 2020-08-04 16:51:48.945/I/17208-17706     /Network     -imlongconnection.cpp.33  Init                              /init and then first connect
+TIM: 2020-08-04 16:51:48.946/I/17208-17706     /Network     -ipswitcher.cpp.44  SelectBestChannel                       /choose best channel|net_type:WIFI|net_id:1:"HUAXING"|prior_ip_src:http dns|reason:first
+TIM: 2020-08-04 16:51:48.959/I/17208-17208     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:51:48.960/I/17208-17208     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:51:48.961/I/17208-17208     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:51:48.961/I/17208-17208     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:51:48.961/I/17208-17208     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:51:48.962/I/17208-17208     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:51:48.963/I/17208-17208     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:51:48.965/I/17208-17208     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:51:48.969/I/17208-17208     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:51:48.970/I/17208-17208     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:51:48.971/I/17208-17208     /IMSDK       -BaseManager.0                                              /loadFriendshipModule init statt
+TIM: 2020-08-04 16:51:48.976/I/17208-17208     /FriendShip  -friendship_listener_jni.cpp.185  InitIDs                   /---- Start FriendshipListenerJni InitIDs
+TIM: 2020-08-04 16:51:48.976/I/17208-17208     /FriendShip  -friendship_listener_jni.cpp.212  InitIDs                   /---- End FriendshipListenerJni InitIDs
+TIM: 2020-08-04 16:51:48.977/I/17208-17208     /FriendShip  -friendship_jni.cpp.22  Java_com_tencent_imsdk_friendship_FriendshipNativeManager_nativeInitFriendshipModule/start init native Friendship Module
+TIM: 2020-08-04 16:51:48.978/I/17208-17208     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:51:48.979/I/17208-17208     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:51:48.980/I/17208-17208     /FriendShip  -friendship_jni.cpp.34  Java_com_tencent_imsdk_friendship_FriendshipNativeManager_nativeInitFriendshipModule/end init native Friendship Module
+TIM: 2020-08-04 16:51:48.982/I/17208-17208     /IMSDK       -imsdk.ConversationManager.0                                /addMessageListener: com.tencent.qcloud.tim.uikit.TUIKitImpl$8@f53e195
+TIM: 2020-08-04 16:51:48.983/I/17208-17208     /IMSDK       -TIMManager.0                                               /setUserConfig: userConfig=com.tencent.imsdk.TIMUserConfig@3b0a2aa
+TIM: 2020-08-04 16:51:48.998/I/17208-17208     /IMSDK       -NetConnectInfoCenter.0                                     /network changed, action: android.net.conn.CONNECTIVITY_CHANGE
+TIM: 2020-08-04 16:51:48.999/I/17208-17208     /IMSDK       -NetConnectInfoCenter.0                                     /network connected type = 1, name = WIFI
+TIM: 2020-08-04 16:51:49.002/I/17208-17208     /IMSDK       -NetConnectInfoCenter.0                                     /current network: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+TIM: 2020-08-04 16:51:49.003/I/17208-17208     /Common      -manager_jni.cpp.367  Java_com_tencent_imsdk_manager_NativeManager_nativeOnNetworkChanged/OnNetworkChanged is connected 1
+TIM: 2020-08-04 16:51:49.003/I/17208-17706     /Network     -imlongconnection.cpp.78  NotifyNetChange                   /notify net change|status:network connected
+TIM: 2020-08-04 16:51:49.003/W/17208-17706     /Network     -connmonitor.cpp.74  NotifyNetChange                        /no channel
+TIM: 2020-08-04 16:51:49.004/I/17208-17208     /IMSDK       -NetConnectInfoCenter.0                                     /network changed, action: android.net.wifi.STATE_CHANGE
+TIM: 2020-08-04 16:51:49.004/I/17208-17208     /IMSDK       -NetConnectInfoCenter.0                                     /network changed, action: android.net.wifi.WIFI_STATE_CHANGED
+TIM: 2020-08-04 16:51:49.018/I/17208-17706     /Network     -ipswitcher.cpp.437  PrintIPList                            /iplist by http dns|iplist size:4|123.151.79.148:8080|123.151.137.108:8080|123.151.190.254:8080|123.151.190.253:8080
+TIM: 2020-08-04 16:51:49.018/I/17208-17706     /Network     -ipswitcher.cpp.437  PrintIPList                            /iplist by push|iplist size:0
+TIM: 2020-08-04 16:51:49.018/I/17208-17706     /Network     -ipswitcher.cpp.121  ConcurrentConnect                      /all channel concurrent connect
+TIM: 2020-08-04 16:51:49.018/I/17208-17706     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:2|ip:123.151.79.148:8080
+TIM: 2020-08-04 16:51:49.019/I/17208-17706     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:3|ip:123.151.137.108:8080
+TIM: 2020-08-04 16:51:49.020/I/17208-17706     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:4|ip:123.151.190.254:8080
+TIM: 2020-08-04 16:51:49.021/I/17208-17706     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:5|ip:123.151.190.253:8080
+TIM: 2020-08-04 16:51:49.037/I/17208-17706     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:3063003347|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:51:49.037/I/17208-17706     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:3063003347|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:51:49.043/I/17208-17706     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:3|seq:3063003348|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:51:49.043/I/17208-17706     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:5|seq:3063003349|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:51:49.043/I/17208-17706     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:4|seq:3063003350|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:51:49.043/I/17208-17706     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:3|seq:3063003348|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:51:49.043/I/17208-17706     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:5|seq:3063003349|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:51:49.043/I/17208-17706     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:4|seq:3063003350|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:51:49.062/I/17208-17706     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:3063003347|cmd:Heartbeat.Alive|status:acked|size:4|sent:0
+TIM: 2020-08-04 16:51:49.062/I/17208-17706     /Network     -channel.cpp.104  operator()                                /channel ping success|channel id:2|connectCostTime:19ms|pingCostTime:26ms|errCode:0|errMsg:
+TIM: 2020-08-04 16:51:49.063/I/17208-17706     /Network     -ipswitcher.cpp.158  OnChannelConnected                     /channel connected|channel id:2|channel set size:4
+TIM: 2020-08-04 16:51:49.063/I/17208-17706     /Network     -channel.cpp.337  Close                                     /channel close|channel id:4|reason:close by self
+TIM: 2020-08-04 16:51:49.063/I/17208-17706     /Network     -channel.cpp.337  Close                                     /channel close|channel id:3|reason:close by self
+TIM: 2020-08-04 16:51:49.063/I/17208-17706     /Network     -channel.cpp.337  Close                                     /channel close|channel id:5|reason:close by self
+TIM: 2020-08-04 16:51:49.064/I/17208-17706     /Network     -imlongconnection.cpp.86  OnChannelSelected                 /channel id:2|ip_src:0|ip:123.151.79.148:8080|code:0|errMsg:
+TIM: 2020-08-04 16:51:49.064/I/17208-17706     /Network     -channel.cpp.337  Close                                     /channel close|channel id:1|reason:close by self
+TIM: 2020-08-04 16:51:49.065/I/17208-17706     /IMSDK       -NativeManager.0                                            /onNetworkStatusChanged Enter; type:1 code:0 errMsg:
+TIM: 2020-08-04 16:51:49.065/I/17208-17706     /IMSDK       -BaseManager.0                                              /onConnected
+TIM: 2020-08-04 16:51:49.066/I/17208-17706     /Network     -connmonitor.cpp.44  Bind                                   /bind channel|channel id:2
+TIM: 2020-08-04 16:51:49.066/I/17208-17706     /Network     -connmonitor.cpp.208  StartCheckNetwork                     /start check network|cur_net_id: 1:"HUAXING"
+TIM: 2020-08-04 16:51:49.066/I/17208-17706     /Network     -ipswitcher.cpp.185  OnChannelConnected                     /choose best channel success|channel id:2|ip:123.151.79.148:8080
+TIM: 2020-08-04 16:51:49.067/D/17208-17208     /IMSDK       -TUIKit-IMEventListener.0                                   /recv onConnected
+TIM: 2020-08-04 16:51:49.441/I/17208-17708     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:51:49.943/I/17208-17708     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:51:50.444/I/17208-17708     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:51:50.947/I/17208-17708     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:51:54.072/I/17208-17706     /DataReport  -data_report_channel.cpp.121  operator()                    /SendData response|rsp_result:0|err_msg:ok
+TIM: 2020-08-04 16:53:17.907/I/17910-18354     /Common      -log_util.cpp.670  operator()                               /get log file:imsdk_20200804.log
+TIM: 2020-08-04 16:53:17.866/E/17910-17910     /IMSDK       -TUIKit-TUIKit.0                                            /init tuikit version: 1.0
+TIM: 2020-08-04 16:53:17.866/D/17910-18354     /Network     -looper_impl.cpp.163  operator()                            /looper start work|name:looper_log
+TIM: 2020-08-04 16:53:17.867/E/17910-17910     /IMSDK       -TUIKit-TUIKit.0                                            /appCacheDir is empty, use default dir
+TIM: 2020-08-04 16:53:17.882/D/17910-18355     /Network     -looper_impl.cpp.163  operator()                            /looper start work|name:looper_logic
+TIM: 2020-08-04 16:53:17.885/I/17910-17910     /IMSDK       -BaseManager.0                                              /BuglySdkInfos sdkappid:ebfa608d4d ver:4.6.101
+TIM: 2020-08-04 16:53:17.886/I/17910-17910     /IMSDK       -BaseManager.0                                              /logPath: 
+TIM: 2020-08-04 16:53:17.890/D/17910-17910     /IMSDK       -BaseManager.0                                              /create imsdklogs folder failed
+TIM: 2020-08-04 16:53:17.890/I/17910-17910     /IMSDK       -BaseManager.0                                              /logPath: /data/user/0/cn.missfresh.application/files/
+TIM: 2020-08-04 16:53:17.891/I/17910-17910     /IMSDK       -BaseManager.0                                              /init: sdkAppid=1400293526;appid=0;logPath=/data/user/0/cn.missfresh.application/files/;callbackLevel=4;logLevel=3;logPrintEnabled=true
+TIM: 2020-08-04 16:53:17.901/I/17910-17910     /IMSDK       -SessionWrapper.0                                           /bind service=============1596531197900
+TIM: 2020-08-04 16:53:17.902/I/17910-18357     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:53:17.906/I/17910-17910     /Common      -manager_jni.cpp.405  Java_com_tencent_imsdk_manager_NativeManager_nativeInitSdk/InitSDK, sdkappid 1400293526, logPath /data/user/0/cn.missfresh.application/files/, configPath /data/user/0/cn.missfresh.application/files, deviceId 15d8425e-e869-40aa-a0f4-ac851b45a1eb, sdkInsttype_ 2000
+TIM: ==========================================================================
+TIM: ======  TIM
+TIM: ======  Ver: 4.6.101
+TIM: ======  Compile: Feb 24 2020 20:51:23
+TIM: ======  Platform: Android
+TIM: ======  PID: 17910
+TIM: ==========================================================================
+TIM: 2020-08-04 16:53:17.907/I/17910-18355     /Network     -config.cpp.333  Read                                       /read config file /data/user/0/cn.missfresh.application/files/imsdk_config
+TIM: 2020-08-04 16:53:17.907/W/17910-18355     /Network     -config.cpp.335  Read                                       /cannot create config read stream
+TIM: 2020-08-04 16:53:17.907/W/17910-18355     /DataReport  -data_report_storage.cpp.78  LoadDataFromFile               /cannot create read event data stream
+TIM: 2020-08-04 16:53:17.907/I/17910-18355     /Common      -imcore_manager.cpp.154  operator()                         /InitSdk|sdkAppId:1400293526|dev type:MI 5|dev id:15d8425e-e869-40aa-a0f4-ac851b45a1eb|system version:9|app version:4.6.101|is TUIKIT:true|sdkInsttype:2000|logFilePath:/data/user/0/cn.missfresh.application/files/|configFilePath:/data/user/0/cn.missfresh.application/files
+TIM: 2020-08-04 16:53:17.907/I/17910-18355     /Network     -imlongconnection.cpp.33  Init                              /init and then first connect
+TIM: 2020-08-04 16:53:17.908/I/17910-18355     /Network     -ipswitcher.cpp.44  SelectBestChannel                       /choose best channel|net_type:WIFI|net_id:1:"HUAXING"|prior_ip_src:http dns|reason:first
+TIM: 2020-08-04 16:53:17.918/I/17910-17910     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:53:17.919/I/17910-17910     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:53:17.919/I/17910-17910     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:53:17.920/I/17910-17910     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:53:17.920/I/17910-17910     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:53:17.921/I/17910-17910     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:53:17.922/I/17910-17910     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:53:17.923/I/17910-17910     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:53:17.927/I/17910-17910     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:53:17.928/I/17910-17910     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:53:17.929/I/17910-17910     /IMSDK       -BaseManager.0                                              /loadFriendshipModule init statt
+TIM: 2020-08-04 16:53:17.935/I/17910-17910     /FriendShip  -friendship_listener_jni.cpp.185  InitIDs                   /---- Start FriendshipListenerJni InitIDs
+TIM: 2020-08-04 16:53:17.935/I/17910-17910     /FriendShip  -friendship_listener_jni.cpp.212  InitIDs                   /---- End FriendshipListenerJni InitIDs
+TIM: 2020-08-04 16:53:17.936/I/17910-17910     /FriendShip  -friendship_jni.cpp.22  Java_com_tencent_imsdk_friendship_FriendshipNativeManager_nativeInitFriendshipModule/start init native Friendship Module
+TIM: 2020-08-04 16:53:17.936/I/17910-17910     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:53:17.937/I/17910-17910     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:53:17.939/I/17910-17910     /FriendShip  -friendship_jni.cpp.34  Java_com_tencent_imsdk_friendship_FriendshipNativeManager_nativeInitFriendshipModule/end init native Friendship Module
+TIM: 2020-08-04 16:53:17.940/I/17910-17910     /IMSDK       -imsdk.ConversationManager.0                                /addMessageListener: com.tencent.qcloud.tim.uikit.TUIKitImpl$8@499b287
+TIM: 2020-08-04 16:53:17.941/I/17910-17910     /IMSDK       -TIMManager.0                                               /setUserConfig: userConfig=com.tencent.imsdk.TIMUserConfig@2b58552
+TIM: 2020-08-04 16:53:17.958/I/17910-17910     /IMSDK       -NetConnectInfoCenter.0                                     /network changed, action: android.net.conn.CONNECTIVITY_CHANGE
+TIM: 2020-08-04 16:53:17.959/I/17910-17910     /IMSDK       -NetConnectInfoCenter.0                                     /network connected type = 1, name = WIFI
+TIM: 2020-08-04 16:53:17.962/I/17910-17910     /IMSDK       -NetConnectInfoCenter.0                                     /current network: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+TIM: 2020-08-04 16:53:17.963/I/17910-17910     /Common      -manager_jni.cpp.367  Java_com_tencent_imsdk_manager_NativeManager_nativeOnNetworkChanged/OnNetworkChanged is connected 1
+TIM: 2020-08-04 16:53:17.963/I/17910-18355     /Network     -imlongconnection.cpp.78  NotifyNetChange                   /notify net change|status:network connected
+TIM: 2020-08-04 16:53:17.963/W/17910-18355     /Network     -connmonitor.cpp.74  NotifyNetChange                        /no channel
+TIM: 2020-08-04 16:53:17.963/I/17910-17910     /IMSDK       -NetConnectInfoCenter.0                                     /network changed, action: android.net.wifi.STATE_CHANGE
+TIM: 2020-08-04 16:53:17.964/I/17910-17910     /IMSDK       -NetConnectInfoCenter.0                                     /network changed, action: android.net.wifi.WIFI_STATE_CHANGED
+TIM: 2020-08-04 16:53:17.989/I/17910-18355     /Network     -ipswitcher.cpp.437  PrintIPList                            /iplist by http dns|iplist size:4|123.151.137.108:8080|123.151.190.253:8080|123.151.79.148:8080|123.151.190.254:8080
+TIM: 2020-08-04 16:53:17.989/I/17910-18355     /Network     -ipswitcher.cpp.437  PrintIPList                            /iplist by push|iplist size:0
+TIM: 2020-08-04 16:53:17.989/I/17910-18355     /Network     -ipswitcher.cpp.121  ConcurrentConnect                      /all channel concurrent connect
+TIM: 2020-08-04 16:53:17.990/I/17910-18355     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:2|ip:123.151.137.108:8080
+TIM: 2020-08-04 16:53:17.991/I/17910-18355     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:3|ip:123.151.190.253:8080
+TIM: 2020-08-04 16:53:17.993/I/17910-18355     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:4|ip:123.151.79.148:8080
+TIM: 2020-08-04 16:53:17.994/I/17910-18355     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:5|ip:123.151.190.254:8080
+TIM: 2020-08-04 16:53:18.001/I/17910-18355     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:2309251617|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:53:18.002/I/17910-18355     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:2309251617|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:53:18.003/I/17910-18355     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:3|seq:2309251618|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:53:18.004/I/17910-18355     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:3|seq:2309251618|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:53:18.005/I/17910-18355     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:4|seq:2309251619|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:53:18.006/I/17910-18355     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:4|seq:2309251619|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:53:18.007/I/17910-18355     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:5|seq:2309251620|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:53:18.008/I/17910-18355     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:5|seq:2309251620|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:53:18.011/I/17910-18355     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:2309251617|cmd:Heartbeat.Alive|status:acked|size:4|sent:0
+TIM: 2020-08-04 16:53:18.011/I/17910-18355     /Network     -channel.cpp.104  operator()                                /channel ping success|channel id:2|connectCostTime:11ms|pingCostTime:10ms|errCode:0|errMsg:
+TIM: 2020-08-04 16:53:18.011/I/17910-18355     /Network     -ipswitcher.cpp.158  OnChannelConnected                     /channel connected|channel id:2|channel set size:4
+TIM: 2020-08-04 16:53:18.013/I/17910-18355     /Network     -channel.cpp.337  Close                                     /channel close|channel id:4|reason:close by self
+TIM: 2020-08-04 16:53:18.014/I/17910-18355     /Network     -channel.cpp.337  Close                                     /channel close|channel id:3|reason:close by self
+TIM: 2020-08-04 16:53:18.015/I/17910-18355     /Network     -channel.cpp.337  Close                                     /channel close|channel id:5|reason:close by self
+TIM: 2020-08-04 16:53:18.015/I/17910-18355     /Network     -imlongconnection.cpp.86  OnChannelSelected                 /channel id:2|ip_src:0|ip:123.151.137.108:8080|code:0|errMsg:
+TIM: 2020-08-04 16:53:18.015/I/17910-18355     /Network     -channel.cpp.337  Close                                     /channel close|channel id:1|reason:close by self
+TIM: 2020-08-04 16:53:18.015/I/17910-18355     /IMSDK       -NativeManager.0                                            /onNetworkStatusChanged Enter; type:1 code:0 errMsg:
+TIM: 2020-08-04 16:53:18.016/I/17910-18355     /IMSDK       -BaseManager.0                                              /onConnected
+TIM: 2020-08-04 16:53:18.016/I/17910-18355     /Network     -connmonitor.cpp.44  Bind                                   /bind channel|channel id:2
+TIM: 2020-08-04 16:53:18.018/I/17910-18355     /Network     -connmonitor.cpp.208  StartCheckNetwork                     /start check network|cur_net_id: 1:"HUAXING"
+TIM: 2020-08-04 16:53:18.019/I/17910-18355     /Network     -ipswitcher.cpp.185  OnChannelConnected                     /choose best channel success|channel id:2|ip:123.151.137.108:8080
+TIM: 2020-08-04 16:53:18.019/D/17910-17910     /IMSDK       -TUIKit-IMEventListener.0                                   /recv onConnected
+TIM: 2020-08-04 16:53:18.404/I/17910-18357     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:53:18.906/I/17910-18357     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:53:19.409/I/17910-18357     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:53:19.915/I/17910-18357     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:53:23.085/I/17910-18355     /DataReport  -data_report_channel.cpp.121  operator()                    /SendData response|rsp_result:0|err_msg:ok
+TIM: 2020-08-04 16:56:30.950/I/18517-19413     /Common      -log_util.cpp.670  operator()                               /get log file:imsdk_20200804.log
+TIM: 2020-08-04 16:56:30.906/E/18517-18517     /IMSDK       -TUIKit-TUIKit.0                                            /init tuikit version: 1.0
+TIM: 2020-08-04 16:56:30.906/E/18517-18517     /IMSDK       -TUIKit-TUIKit.0                                            /appCacheDir is empty, use default dir
+TIM: 2020-08-04 16:56:30.906/D/18517-19413     /Network     -looper_impl.cpp.163  operator()                            /looper start work|name:looper_log
+TIM: 2020-08-04 16:56:30.922/D/18517-19414     /Network     -looper_impl.cpp.163  operator()                            /looper start work|name:looper_logic
+TIM: 2020-08-04 16:56:30.925/I/18517-18517     /IMSDK       -BaseManager.0                                              /BuglySdkInfos sdkappid:ebfa608d4d ver:4.6.101
+TIM: 2020-08-04 16:56:30.925/I/18517-18517     /IMSDK       -BaseManager.0                                              /logPath: 
+TIM: 2020-08-04 16:56:30.929/D/18517-18517     /IMSDK       -BaseManager.0                                              /create imsdklogs folder failed
+TIM: 2020-08-04 16:56:30.929/I/18517-18517     /IMSDK       -BaseManager.0                                              /logPath: /data/user/0/cn.missfresh.application/files/
+TIM: 2020-08-04 16:56:30.931/I/18517-18517     /IMSDK       -BaseManager.0                                              /init: sdkAppid=1400293526;appid=0;logPath=/data/user/0/cn.missfresh.application/files/;callbackLevel=4;logLevel=3;logPrintEnabled=true
+TIM: 2020-08-04 16:56:30.942/I/18517-18517     /IMSDK       -SessionWrapper.0                                           /bind service=============1596531390942
+TIM: 2020-08-04 16:56:30.943/I/18517-19416     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:56:30.948/I/18517-18517     /Common      -manager_jni.cpp.405  Java_com_tencent_imsdk_manager_NativeManager_nativeInitSdk/InitSDK, sdkappid 1400293526, logPath /data/user/0/cn.missfresh.application/files/, configPath /data/user/0/cn.missfresh.application/files, deviceId 15d8425e-e869-40aa-a0f4-ac851b45a1eb, sdkInsttype_ 2000
+TIM: ==========================================================================
+TIM: ======  TIM
+TIM: ======  Ver: 4.6.101
+TIM: ======  Compile: Feb 24 2020 20:51:23
+TIM: ======  Platform: Android
+TIM: ======  PID: 18517
+TIM: ==========================================================================
+TIM: 2020-08-04 16:56:30.949/I/18517-19414     /Network     -config.cpp.333  Read                                       /read config file /data/user/0/cn.missfresh.application/files/imsdk_config
+TIM: 2020-08-04 16:56:30.949/W/18517-19414     /Network     -config.cpp.335  Read                                       /cannot create config read stream
+TIM: 2020-08-04 16:56:30.950/W/18517-19414     /DataReport  -data_report_storage.cpp.78  LoadDataFromFile               /cannot create read event data stream
+TIM: 2020-08-04 16:56:30.949/I/18517-19414     /Common      -imcore_manager.cpp.154  operator()                         /InitSdk|sdkAppId:1400293526|dev type:MI 5|dev id:15d8425e-e869-40aa-a0f4-ac851b45a1eb|system version:9|app version:4.6.101|is TUIKIT:true|sdkInsttype:2000|logFilePath:/data/user/0/cn.missfresh.application/files/|configFilePath:/data/user/0/cn.missfresh.application/files
+TIM: 2020-08-04 16:56:30.950/I/18517-19414     /Network     -imlongconnection.cpp.33  Init                              /init and then first connect
+TIM: 2020-08-04 16:56:30.954/I/18517-19414     /Network     -ipswitcher.cpp.44  SelectBestChannel                       /choose best channel|net_type:WIFI|net_id:1:"HUAXING"|prior_ip_src:http dns|reason:first
+TIM: 2020-08-04 16:56:30.964/I/18517-18517     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:56:30.965/I/18517-18517     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:56:30.965/I/18517-18517     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:56:30.966/I/18517-18517     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:56:30.966/I/18517-18517     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:56:30.967/I/18517-18517     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:56:30.968/I/18517-18517     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:56:30.970/I/18517-18517     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:56:30.974/I/18517-18517     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:56:30.974/I/18517-18517     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:56:30.975/I/18517-18517     /IMSDK       -BaseManager.0                                              /loadFriendshipModule init statt
+TIM: 2020-08-04 16:56:30.981/I/18517-18517     /FriendShip  -friendship_listener_jni.cpp.185  InitIDs                   /---- Start FriendshipListenerJni InitIDs
+TIM: 2020-08-04 16:56:30.982/I/18517-18517     /FriendShip  -friendship_listener_jni.cpp.212  InitIDs                   /---- End FriendshipListenerJni InitIDs
+TIM: 2020-08-04 16:56:30.982/I/18517-18517     /FriendShip  -friendship_jni.cpp.22  Java_com_tencent_imsdk_friendship_FriendshipNativeManager_nativeInitFriendshipModule/start init native Friendship Module
+TIM: 2020-08-04 16:56:30.983/I/18517-18517     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:56:30.983/I/18517-18517     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 16:56:30.985/I/18517-18517     /FriendShip  -friendship_jni.cpp.34  Java_com_tencent_imsdk_friendship_FriendshipNativeManager_nativeInitFriendshipModule/end init native Friendship Module
+TIM: 2020-08-04 16:56:30.987/I/18517-18517     /IMSDK       -imsdk.ConversationManager.0                                /addMessageListener: com.tencent.qcloud.tim.uikit.TUIKitImpl$8@3edbaf5
+TIM: 2020-08-04 16:56:30.988/I/18517-18517     /IMSDK       -TIMManager.0                                               /setUserConfig: userConfig=com.tencent.imsdk.TIMUserConfig@9ad708a
+TIM: 2020-08-04 16:56:31.062/I/18517-19414     /Network     -ipswitcher.cpp.437  PrintIPList                            /iplist by http dns|iplist size:4|125.39.133.146:8080|123.126.122.69:8080|125.39.133.58:8080|125.39.133.56:8080
+TIM: 2020-08-04 16:56:31.062/I/18517-19414     /Network     -ipswitcher.cpp.437  PrintIPList                            /iplist by push|iplist size:0
+TIM: 2020-08-04 16:56:31.062/I/18517-19414     /Network     -ipswitcher.cpp.121  ConcurrentConnect                      /all channel concurrent connect
+TIM: 2020-08-04 16:56:31.063/I/18517-19414     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:2|ip:125.39.133.146:8080
+TIM: 2020-08-04 16:56:31.066/I/18517-19414     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:3|ip:123.126.122.69:8080
+TIM: 2020-08-04 16:56:31.077/I/18517-19414     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:4|ip:125.39.133.58:8080
+TIM: 2020-08-04 16:56:31.083/I/18517-19414     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:5|ip:125.39.133.56:8080
+TIM: 2020-08-04 16:56:31.088/I/18517-19414     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:762264162|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:56:31.088/I/18517-19414     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:3|seq:762264163|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:56:31.088/I/18517-19414     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:4|seq:762264164|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:56:31.089/I/18517-19414     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:762264162|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:56:31.089/I/18517-19414     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:3|seq:762264163|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:56:31.089/I/18517-19414     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:4|seq:762264164|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:56:31.097/I/18517-19414     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:5|seq:762264165|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:56:31.098/I/18517-19414     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:5|seq:762264165|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:56:31.102/I/18517-19414     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:762264162|cmd:Heartbeat.Alive|status:acked|size:4|sent:0
+TIM: 2020-08-04 16:56:31.102/I/18517-19414     /Network     -channel.cpp.104  operator()                                /channel ping success|channel id:2|connectCostTime:25ms|pingCostTime:14ms|errCode:0|errMsg:
+TIM: 2020-08-04 16:56:31.102/I/18517-19414     /Network     -ipswitcher.cpp.158  OnChannelConnected                     /channel connected|channel id:2|channel set size:4
+TIM: 2020-08-04 16:56:31.102/I/18517-19414     /Network     -channel.cpp.337  Close                                     /channel close|channel id:3|reason:close by self
+TIM: 2020-08-04 16:56:31.102/I/18517-19414     /Network     -channel.cpp.337  Close                                     /channel close|channel id:5|reason:close by self
+TIM: 2020-08-04 16:56:31.103/I/18517-19414     /Network     -channel.cpp.337  Close                                     /channel close|channel id:4|reason:close by self
+TIM: 2020-08-04 16:56:31.103/I/18517-19414     /Network     -imlongconnection.cpp.86  OnChannelSelected                 /channel id:2|ip_src:0|ip:125.39.133.146:8080|code:0|errMsg:
+TIM: 2020-08-04 16:56:31.103/I/18517-19414     /Network     -channel.cpp.337  Close                                     /channel close|channel id:1|reason:close by self
+TIM: 2020-08-04 16:56:31.106/I/18517-19414     /IMSDK       -NativeManager.0                                            /onNetworkStatusChanged Enter; type:1 code:0 errMsg:
+TIM: 2020-08-04 16:56:31.106/I/18517-19414     /IMSDK       -BaseManager.0                                              /onConnected
+TIM: 2020-08-04 16:56:31.106/I/18517-19414     /Network     -connmonitor.cpp.44  Bind                                   /bind channel|channel id:2
+TIM: 2020-08-04 16:56:31.107/I/18517-19414     /Network     -connmonitor.cpp.208  StartCheckNetwork                     /start check network|cur_net_id: 1:"HUAXING"
+TIM: 2020-08-04 16:56:31.107/I/18517-19414     /Network     -ipswitcher.cpp.185  OnChannelConnected                     /choose best channel success|channel id:2|ip:125.39.133.146:8080
+TIM: 2020-08-04 16:56:31.445/I/18517-19416     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:56:31.947/I/18517-19416     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:56:32.305/I/18517-18517     /IMSDK       -NetConnectInfoCenter.0                                     /network changed, action: android.net.conn.CONNECTIVITY_CHANGE
+TIM: 2020-08-04 16:56:32.306/I/18517-18517     /IMSDK       -NetConnectInfoCenter.0                                     /network connected type = 1, name = WIFI
+TIM: 2020-08-04 16:56:32.310/I/18517-18517     /IMSDK       -NetConnectInfoCenter.0                                     /current network: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+TIM: 2020-08-04 16:56:32.310/I/18517-18517     /Common      -manager_jni.cpp.367  Java_com_tencent_imsdk_manager_NativeManager_nativeOnNetworkChanged/OnNetworkChanged is connected 1
+TIM: 2020-08-04 16:56:32.310/I/18517-19414     /Network     -imlongconnection.cpp.78  NotifyNetChange                   /notify net change|status:network connected
+TIM: 2020-08-04 16:56:32.311/I/18517-19414     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:762264167|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 16:56:32.311/I/18517-18517     /IMSDK       -NetConnectInfoCenter.0                                     /network changed, action: android.net.wifi.STATE_CHANGE
+TIM: 2020-08-04 16:56:32.311/I/18517-19414     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:762264167|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 16:56:32.311/I/18517-18517     /IMSDK       -NetConnectInfoCenter.0                                     /network changed, action: android.net.wifi.WIFI_STATE_CHANGED
+TIM: 2020-08-04 16:56:32.317/D/18517-18517     /IMSDK       -TUIKit-IMEventListener.0                                   /recv onConnected
+TIM: 2020-08-04 16:56:32.320/I/18517-19414     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:762264167|cmd:Heartbeat.Alive|status:acked|size:4|sent:0
+TIM: 2020-08-04 16:56:32.320/I/18517-19414     /Network     -connmonitor.cpp.253  operator()                            /network change ping|code:0|errMsg:
+TIM: 2020-08-04 16:56:32.448/I/18517-19416     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:56:32.950/I/18517-19416     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 16:56:37.222/I/18517-19414     /DataReport  -data_report_channel.cpp.121  operator()                    /SendData response|rsp_result:0|err_msg:ok
+TIM: 2020-08-04 17:11:32.418/W/18517-19414     /Network     -looper_impl.cpp.350  operator()                            /channel eof arrived|id:2
+TIM: 2020-08-04 17:11:32.419/I/18517-19414     /Network     -channel.cpp.337  Close                                     /channel close|channel id:2|reason:close by peer
+TIM: 2020-08-04 17:11:32.421/I/18517-19414     /IMSDK       -NativeManager.0                                            /onNetworkStatusChanged Enter; type:3 code:0 errMsg:
+TIM: 2020-08-04 17:11:32.422/I/18517-19414     /IMSDK       -BaseManager.0                                              /onDisconnected, code: 0|descr: 
+TIM: 2020-08-04 17:11:32.424/I/18517-19414     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:762264169|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 17:11:32.424/W/18517-19414     /Network     -connmonitor.cpp.107  OnSendStatus                          /no packet sent or recv after 900104ms
+TIM: 2020-08-04 17:11:32.425/I/18517-19414     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:762264170|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 17:11:35.476/I/18517-19414     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:762264169|cmd:Heartbeat.Alive|status:send timeout|size:90|sent:0
+TIM: 2020-08-04 17:11:35.476/I/18517-19414     /Network     -connmonitor.cpp.237  StopCheckNetwork                      /stop check network|cur_net_id: 1:"HUAXING"
+TIM: 2020-08-04 17:11:35.476/I/18517-19414     /Network     -imlongconnection.cpp.173  OnReconnect                      /reconnect reason:no connection to send
+TIM: 2020-08-04 17:11:35.478/I/18517-19414     /IMSDK       -NativeManager.0                                            /onNetworkStatusChanged Enter; type:2 code:0 errMsg:
+TIM: 2020-08-04 17:11:35.478/I/18517-19414     /IMSDK       -BaseManager.0                                              /onConnecting
+TIM: 2020-08-04 17:11:35.479/I/18517-19414     /Network     -ipswitcher.cpp.44  SelectBestChannel                       /choose best channel|net_type:WIFI|net_id:1:"HUAXING"|prior_ip_src:http dns|reason:no connection to send
+TIM: 2020-08-04 17:11:35.483/W/18517-19414     /Network     -channel.cpp.236  CheckPacketTimeoutInternal                /packet timeout(send)|id:2|seq:762264169|cmd:Heartbeat.Alive|status:send timeout|retry count:1
+TIM: 2020-08-04 17:11:35.483/I/18517-19414     /Network     -connmonitor.cpp.253  operator()                            /network change ping|code:9519|errMsg:packet in queue but no available channel to send
+TIM: 2020-08-04 17:11:35.494/I/18517-19414     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:762264170|cmd:Heartbeat.Alive|status:send timeout|size:90|sent:0
+TIM: 2020-08-04 17:11:35.494/W/18517-19414     /Network     -channel.cpp.236  CheckPacketTimeoutInternal                /packet timeout(send)|id:2|seq:762264170|cmd:Heartbeat.Alive|status:send timeout|retry count:1
+TIM: 2020-08-04 17:11:35.494/I/18517-19414     /Network     -connmonitor.cpp.253  operator()                            /network change ping|code:9519|errMsg:packet in queue but no available channel to send
+TIM: 2020-08-04 17:11:35.634/I/18517-19414     /Network     -ipswitcher.cpp.437  PrintIPList                            /iplist by http dns|iplist size:4|125.39.133.146:8080|123.126.122.69:8080|125.39.133.58:8080|125.39.133.56:8080
+TIM: 2020-08-04 17:11:35.635/I/18517-19414     /Network     -ipswitcher.cpp.437  PrintIPList                            /iplist by push|iplist size:0
+TIM: 2020-08-04 17:11:35.635/I/18517-19414     /Network     -ipswitcher.cpp.121  ConcurrentConnect                      /all channel concurrent connect
+TIM: 2020-08-04 17:11:35.637/I/18517-19414     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:6|ip:125.39.133.146:8080
+TIM: 2020-08-04 17:11:35.654/I/18517-19414     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:7|ip:123.126.122.69:8080
+TIM: 2020-08-04 17:11:35.658/I/18517-19414     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:8|ip:125.39.133.58:8080
+TIM: 2020-08-04 17:11:35.663/I/18517-19414     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:9|ip:125.39.133.56:8080
+TIM: 2020-08-04 17:11:35.667/I/18517-19414     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:6|seq:762264171|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 17:11:35.669/I/18517-19414     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:7|seq:762264172|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 17:11:35.670/I/18517-19414     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:6|seq:762264171|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 17:11:35.672/I/18517-19414     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:7|seq:762264172|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 17:11:35.672/I/18517-19414     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:8|seq:762264173|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 17:11:35.673/I/18517-19414     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:8|seq:762264173|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 17:11:35.677/I/18517-19414     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:9|seq:762264174|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 17:11:35.679/I/18517-19414     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:9|seq:762264174|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 17:11:35.683/I/18517-19414     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:6|seq:762264171|cmd:Heartbeat.Alive|status:acked|size:4|sent:0
+TIM: 2020-08-04 17:11:35.683/I/18517-19414     /Network     -channel.cpp.104  operator()                                /channel ping success|channel id:6|connectCostTime:22ms|pingCostTime:16ms|errCode:0|errMsg:
+TIM: 2020-08-04 17:11:35.683/I/18517-19414     /Network     -ipswitcher.cpp.158  OnChannelConnected                     /channel connected|channel id:6|channel set size:4
+TIM: 2020-08-04 17:11:35.683/I/18517-19414     /Network     -channel.cpp.337  Close                                     /channel close|channel id:7|reason:close by self
+TIM: 2020-08-04 17:11:35.687/I/18517-19414     /Network     -channel.cpp.337  Close                                     /channel close|channel id:8|reason:close by self
+TIM: 2020-08-04 17:11:35.687/I/18517-19414     /Network     -channel.cpp.337  Close                                     /channel close|channel id:9|reason:close by self
+TIM: 2020-08-04 17:11:35.688/I/18517-19414     /Network     -imlongconnection.cpp.86  OnChannelSelected                 /channel id:6|ip_src:0|ip:125.39.133.146:8080|code:0|errMsg:
+TIM: 2020-08-04 17:11:35.688/I/18517-19414     /IMSDK       -NativeManager.0                                            /onNetworkStatusChanged Enter; type:1 code:0 errMsg:
+TIM: 2020-08-04 17:11:35.689/I/18517-19414     /IMSDK       -BaseManager.0                                              /onConnected
+TIM: 2020-08-04 17:11:35.689/I/18517-19414     /Network     -connmonitor.cpp.44  Bind                                   /bind channel|channel id:6
+TIM: 2020-08-04 17:11:35.689/I/18517-19414     /Network     -connmonitor.cpp.208  StartCheckNetwork                     /start check network|cur_net_id: 1:"HUAXING"
+TIM: 2020-08-04 17:11:35.689/I/18517-19414     /Network     -ipswitcher.cpp.185  OnChannelConnected                     /choose best channel success|channel id:6|ip:125.39.133.146:8080
+TIM: 2020-08-04 17:11:37.738/I/18517-19414     /DataReport  -data_report_channel.cpp.121  operator()                    /SendData response|rsp_result:0|err_msg:ok
+TIM: 2020-08-04 17:24:07.248/I/21124-21664     /Common      -log_util.cpp.670  operator()                               /get log file:imsdk_20200804.log
+TIM: 2020-08-04 17:24:07.201/E/21124-21124     /IMSDK       -TUIKit-TUIKit.0                                            /init tuikit version: 1.0
+TIM: 2020-08-04 17:24:07.201/D/21124-21664     /Network     -looper_impl.cpp.163  operator()                            /looper start work|name:looper_log
+TIM: 2020-08-04 17:24:07.201/E/21124-21124     /IMSDK       -TUIKit-TUIKit.0                                            /appCacheDir is empty, use default dir
+TIM: 2020-08-04 17:24:07.219/D/21124-21666     /Network     -looper_impl.cpp.163  operator()                            /looper start work|name:looper_logic
+TIM: 2020-08-04 17:24:07.222/I/21124-21124     /IMSDK       -BaseManager.0                                              /BuglySdkInfos sdkappid:ebfa608d4d ver:4.6.101
+TIM: 2020-08-04 17:24:07.222/I/21124-21124     /IMSDK       -BaseManager.0                                              /logPath: 
+TIM: 2020-08-04 17:24:07.227/D/21124-21124     /IMSDK       -BaseManager.0                                              /create imsdklogs folder failed
+TIM: 2020-08-04 17:24:07.228/I/21124-21124     /IMSDK       -BaseManager.0                                              /logPath: /data/user/0/cn.missfresh.application/files/
+TIM: 2020-08-04 17:24:07.229/I/21124-21124     /IMSDK       -BaseManager.0                                              /init: sdkAppid=1400293526;appid=0;logPath=/data/user/0/cn.missfresh.application/files/;callbackLevel=4;logLevel=3;logPrintEnabled=true
+TIM: 2020-08-04 17:24:07.240/I/21124-21124     /IMSDK       -SessionWrapper.0                                           /bind service=============1596533047240
+TIM: 2020-08-04 17:24:07.242/I/21124-21669     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 17:24:07.247/I/21124-21124     /Common      -manager_jni.cpp.405  Java_com_tencent_imsdk_manager_NativeManager_nativeInitSdk/InitSDK, sdkappid 1400293526, logPath /data/user/0/cn.missfresh.application/files/, configPath /data/user/0/cn.missfresh.application/files, deviceId 15d8425e-e869-40aa-a0f4-ac851b45a1eb, sdkInsttype_ 2000
+TIM: ==========================================================================
+TIM: ======  TIM
+TIM: ======  Ver: 4.6.101
+TIM: ======  Compile: Feb 24 2020 20:51:23
+TIM: ======  Platform: Android
+TIM: ======  PID: 21124
+TIM: ==========================================================================
+TIM: 2020-08-04 17:24:07.248/I/21124-21666     /Network     -config.cpp.333  Read                                       /read config file /data/user/0/cn.missfresh.application/files/imsdk_config
+TIM: 2020-08-04 17:24:07.248/W/21124-21666     /Network     -config.cpp.335  Read                                       /cannot create config read stream
+TIM: 2020-08-04 17:24:07.248/W/21124-21666     /DataReport  -data_report_storage.cpp.78  LoadDataFromFile               /cannot create read event data stream
+TIM: 2020-08-04 17:24:07.248/I/21124-21666     /Common      -imcore_manager.cpp.154  operator()                         /InitSdk|sdkAppId:1400293526|dev type:MI 5|dev id:15d8425e-e869-40aa-a0f4-ac851b45a1eb|system version:9|app version:4.6.101|is TUIKIT:true|sdkInsttype:2000|logFilePath:/data/user/0/cn.missfresh.application/files/|configFilePath:/data/user/0/cn.missfresh.application/files
+TIM: 2020-08-04 17:24:07.248/I/21124-21666     /Network     -imlongconnection.cpp.33  Init                              /init and then first connect
+TIM: 2020-08-04 17:24:07.249/I/21124-21666     /Network     -ipswitcher.cpp.44  SelectBestChannel                       /choose best channel|net_type:WIFI|net_id:1:"HUAXING"|prior_ip_src:http dns|reason:first
+TIM: 2020-08-04 17:24:07.259/I/21124-21124     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 17:24:07.260/I/21124-21124     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 17:24:07.260/I/21124-21124     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 17:24:07.261/I/21124-21124     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 17:24:07.261/I/21124-21124     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 17:24:07.262/I/21124-21124     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 17:24:07.263/I/21124-21124     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 17:24:07.264/I/21124-21124     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 17:24:07.268/I/21124-21124     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 17:24:07.268/I/21124-21124     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 17:24:07.269/I/21124-21124     /IMSDK       -BaseManager.0                                              /loadFriendshipModule init statt
+TIM: 2020-08-04 17:24:07.275/I/21124-21124     /FriendShip  -friendship_listener_jni.cpp.185  InitIDs                   /---- Start FriendshipListenerJni InitIDs
+TIM: 2020-08-04 17:24:07.275/I/21124-21124     /FriendShip  -friendship_listener_jni.cpp.212  InitIDs                   /---- End FriendshipListenerJni InitIDs
+TIM: 2020-08-04 17:24:07.275/I/21124-21124     /FriendShip  -friendship_jni.cpp.22  Java_com_tencent_imsdk_friendship_FriendshipNativeManager_nativeInitFriendshipModule/start init native Friendship Module
+TIM: 2020-08-04 17:24:07.275/I/21124-21124     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 17:24:07.276/I/21124-21124     /Msg         -elem_processor.cpp.28  RegisterElemHandler                 /Register Elem Handler
+TIM: 2020-08-04 17:24:07.278/I/21124-21124     /FriendShip  -friendship_jni.cpp.34  Java_com_tencent_imsdk_friendship_FriendshipNativeManager_nativeInitFriendshipModule/end init native Friendship Module
+TIM: 2020-08-04 17:24:07.280/I/21124-21124     /IMSDK       -imsdk.ConversationManager.0                                /addMessageListener: com.tencent.qcloud.tim.uikit.TUIKitImpl$8@939d8a5
+TIM: 2020-08-04 17:24:07.280/I/21124-21124     /IMSDK       -TIMManager.0                                               /setUserConfig: userConfig=com.tencent.imsdk.TIMUserConfig@241b47a
+TIM: 2020-08-04 17:24:07.299/I/21124-21124     /IMSDK       -NetConnectInfoCenter.0                                     /network changed, action: android.net.conn.CONNECTIVITY_CHANGE
+TIM: 2020-08-04 17:24:07.300/I/21124-21124     /IMSDK       -NetConnectInfoCenter.0                                     /network connected type = 1, name = WIFI
+TIM: 2020-08-04 17:24:07.304/I/21124-21124     /IMSDK       -NetConnectInfoCenter.0                                     /current network: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+TIM: 2020-08-04 17:24:07.305/I/21124-21124     /Common      -manager_jni.cpp.367  Java_com_tencent_imsdk_manager_NativeManager_nativeOnNetworkChanged/OnNetworkChanged is connected 1
+TIM: 2020-08-04 17:24:07.305/I/21124-21666     /Network     -imlongconnection.cpp.78  NotifyNetChange                   /notify net change|status:network connected
+TIM: 2020-08-04 17:24:07.305/W/21124-21666     /Network     -connmonitor.cpp.74  NotifyNetChange                        /no channel
+TIM: 2020-08-04 17:24:07.305/I/21124-21124     /IMSDK       -NetConnectInfoCenter.0                                     /network changed, action: android.net.wifi.STATE_CHANGE
+TIM: 2020-08-04 17:24:07.306/I/21124-21124     /IMSDK       -NetConnectInfoCenter.0                                     /network changed, action: android.net.wifi.WIFI_STATE_CHANGED
+TIM: 2020-08-04 17:24:07.330/I/21124-21666     /Network     -ipswitcher.cpp.437  PrintIPList                            /iplist by http dns|iplist size:4|123.151.79.148:8080|123.151.137.108:8080|123.151.190.254:8080|123.151.190.253:8080
+TIM: 2020-08-04 17:24:07.331/I/21124-21666     /Network     -ipswitcher.cpp.437  PrintIPList                            /iplist by push|iplist size:0
+TIM: 2020-08-04 17:24:07.331/I/21124-21666     /Network     -ipswitcher.cpp.121  ConcurrentConnect                      /all channel concurrent connect
+TIM: 2020-08-04 17:24:07.333/I/21124-21666     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:2|ip:123.151.79.148:8080
+TIM: 2020-08-04 17:24:07.336/I/21124-21666     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:3|ip:123.151.137.108:8080
+TIM: 2020-08-04 17:24:07.339/I/21124-21666     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:4|ip:123.151.190.254:8080
+TIM: 2020-08-04 17:24:07.341/I/21124-21666     /Network     -channel.cpp.300  Connect                                   /channel connecting|channel id:5|ip:123.151.190.253:8080
+TIM: 2020-08-04 17:24:07.343/I/21124-21666     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:2470658085|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 17:24:07.348/I/21124-21666     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:2470658085|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 17:24:07.350/I/21124-21666     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:4|seq:2470658086|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 17:24:07.350/I/21124-21666     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:4|seq:2470658086|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 17:24:07.351/I/21124-21666     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:3|seq:2470658087|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 17:24:07.351/I/21124-21666     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:5|seq:2470658088|cmd:Heartbeat.Alive|status:enqueued|size:90|sent:0
+TIM: 2020-08-04 17:24:07.352/I/21124-21666     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:3|seq:2470658087|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 17:24:07.352/I/21124-21666     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:5|seq:2470658088|cmd:Heartbeat.Alive|status:send|size:90|sent:90
+TIM: 2020-08-04 17:24:07.357/I/21124-21666     /Network     -channel.cpp.162  OnSendStatus                              /send packet status|channel id:2|seq:2470658085|cmd:Heartbeat.Alive|status:acked|size:4|sent:0
+TIM: 2020-08-04 17:24:07.357/I/21124-21666     /Network     -channel.cpp.104  operator()                                /channel ping success|channel id:2|connectCostTime:9ms|pingCostTime:14ms|errCode:0|errMsg:
+TIM: 2020-08-04 17:24:07.357/I/21124-21666     /Network     -ipswitcher.cpp.158  OnChannelConnected                     /channel connected|channel id:2|channel set size:4
+TIM: 2020-08-04 17:24:07.357/I/21124-21666     /Network     -channel.cpp.337  Close                                     /channel close|channel id:5|reason:close by self
+TIM: 2020-08-04 17:24:07.357/I/21124-21666     /Network     -channel.cpp.337  Close                                     /channel close|channel id:4|reason:close by self
+TIM: 2020-08-04 17:24:07.358/I/21124-21666     /Network     -channel.cpp.337  Close                                     /channel close|channel id:3|reason:close by self
+TIM: 2020-08-04 17:24:07.358/I/21124-21666     /Network     -imlongconnection.cpp.86  OnChannelSelected                 /channel id:2|ip_src:0|ip:123.151.79.148:8080|code:0|errMsg:
+TIM: 2020-08-04 17:24:07.358/I/21124-21666     /Network     -channel.cpp.337  Close                                     /channel close|channel id:1|reason:close by self
+TIM: 2020-08-04 17:24:07.358/I/21124-21666     /IMSDK       -NativeManager.0                                            /onNetworkStatusChanged Enter; type:1 code:0 errMsg:
+TIM: 2020-08-04 17:24:07.358/I/21124-21666     /IMSDK       -BaseManager.0                                              /onConnected
+TIM: 2020-08-04 17:24:07.359/I/21124-21666     /Network     -connmonitor.cpp.44  Bind                                   /bind channel|channel id:2
+TIM: 2020-08-04 17:24:07.359/I/21124-21666     /Network     -connmonitor.cpp.208  StartCheckNetwork                     /start check network|cur_net_id: 1:"HUAXING"
+TIM: 2020-08-04 17:24:07.359/I/21124-21666     /Network     -ipswitcher.cpp.185  OnChannelConnected                     /choose best channel success|channel id:2|ip:123.151.79.148:8080
+TIM: 2020-08-04 17:24:07.365/D/21124-21124     /IMSDK       -TUIKit-IMEventListener.0                                   /recv onConnected
+TIM: 2020-08-04 17:24:07.746/I/21124-21669     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 17:24:08.248/I/21124-21669     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 17:24:08.751/I/21124-21669     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 17:24:09.258/I/21124-21669     /IMSDK       -SessionWrapper.0                                           /try to bind service, main: cn.missfresh.application
+TIM: 2020-08-04 17:24:12.398/I/21124-21666     /DataReport  -data_report_channel.cpp.121  operator()                    /SendData response|rsp_result:0|err_msg:ok

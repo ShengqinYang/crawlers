@@ -1,0 +1,10 @@
+#update incrupdate_status and status!
+#Fri Jul 24 10:32:36 GMT+08:00 2020
+incrupdate_retry_num=0
+install_status=3
+install_core_ver=0
+incrupdate_status=-1
+unzip_retry_num=0
+install_apk_path=
+unlzma_status=0
+dexopt_retry_num=0

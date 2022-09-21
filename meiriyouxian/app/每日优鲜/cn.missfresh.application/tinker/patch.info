@@ -1,0 +1,8 @@
+#from old version:c399fc06e0796829adbe74857f5c2321 to new version:c399fc06e0796829adbe74857f5c2321
+#Tue Aug 04 16:43:41 GMT+08:00 2020
+old=c399fc06e0796829adbe74857f5c2321
+print=Xiaomi/gemini/gemini\:8.0.0/OPR1.170623.032/V9.6.1.0.OAAMIFD\:user/release-keys
+dir=odex
+is_protected_app=1
+is_remove_new_version=0
+new=c399fc06e0796829adbe74857f5c2321

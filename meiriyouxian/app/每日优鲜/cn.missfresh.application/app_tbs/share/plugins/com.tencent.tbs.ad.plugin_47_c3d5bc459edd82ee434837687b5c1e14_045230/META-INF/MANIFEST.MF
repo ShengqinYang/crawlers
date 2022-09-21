@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Created-By: 1.8.0_121 (Oracle Corporation)
+
+Name: native_ad_plugin_dex.jar
+SHA1-Digest: v+yCm8mmljCyOKAqFD7VC4PA7F8=
+
+Name: tbs_reinstall_tips.js
+SHA1-Digest: wdOguH/kuel3a0YfmYXKZDqu5Rg=
+
+Name: native_ad.conf
+SHA1-Digest: KqXkXFdavCXexPZ0I4wtgBlMsdE=
+
+Name: tbs_autoad.js
+SHA1-Digest: vDP8IHYI4tgEy+i3TWD/JjWRI3Y=
+
+Name: domdistiller.js
+SHA1-Digest: Byf6X3XUeWbR2wqrCAoEhYUVvWg=
+

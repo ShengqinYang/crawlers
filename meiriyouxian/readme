@@ -1,0 +1,4 @@
+1.每日优鲜小程序可以抓包，反编译，破解js，【√】
+2.app抓不到包，做了xpose检测，Frida + .\Frida-Apk-Unpack-master\Capture_package.js 可以抓包 【×】
+    但是有加密，hook的时候有两个进程，不知为啥hook不到
+
