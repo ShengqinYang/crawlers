@@ -1,0 +1,12 @@
+知乎网页版自动化登陆：
+"""
+平台会检测：selenium + 滑动轨迹识别（网易易顿）
+pip 安装 undetected_chromedriver包，可绕过知乎对chromedriver识别的问题，
+在undetected-chromedriver的过程中会自动下载chromerdriver且为最新版本，放在运行目录下，下次运行不会重复下载，
+大家不用去主动下载chromedriver了，但要注意浏览器与 chromerdriver 版本匹配
+"""
+滑动验证码 + 点选验证码
+1.滑动验证码
+2.点选验证码 需要借助打码平台返回点选坐标点，这里用图鉴打码平台
+3.利用贝瑟尔曲线生成滑动轨迹，在使用selenium去模拟轨迹滑动（需注意：起点位置也很关键，不能超出图标本身的坐标位置）
+
