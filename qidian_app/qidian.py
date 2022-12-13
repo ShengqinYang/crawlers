@@ -33,8 +33,8 @@ def start_hook():
         script = session.create_script(js_code)
         script.on('message', on_message)
         script.load()
-        sys.stdin.read()  # 等待程序触发,调试时打开
-        # return script
+        # sys.stdin.read()  # 等待程序触发,调试时打开
+        return script
     except frida.NotSupportedError:
         print("请检查包名的有效性.")
 
