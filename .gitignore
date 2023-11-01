@@ -3,3 +3,6 @@
 *.xml
 *.idea
 *.DS_Store
+*config/
+*.csv
+cesi.py

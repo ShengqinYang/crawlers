@@ -11,7 +11,6 @@ time.sleep(1)
 
 session = device.attach(app_package_name)
 
-
 scr = """
 Java.perform(function () {
     
@@ -76,14 +75,13 @@ Java.perform(function () {
 });
 """
 
-
-
 script = session.create_script(scr)
-def on_message(message,data):
-	print (message)
-script.on("message",on_message)
+
+
+def on_message(message, data):
+    print(message)
+
+
+script.on("message", on_message)
 script.load()
 sys.stdin.read()
-
-
-
